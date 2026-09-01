@@ -1,0 +1,464 @@
+export const RESTAURANTS = [
+  // Seminaarinmäki & Keskusta
+  {
+    id: 'lozzi',
+    name: 'Ravintola Lozzi',
+    campus: 'seminaarinmaki',
+    campusName: 'Seminaarinmäki',
+    building: 'P-rakennus (Päärakennuksen vieressä)',
+    address: 'Keskussairaalantie 4, 40600 Jyväskylä',
+    operator: 'Semma',
+    provider: 'semma',
+    costCenter: '1401',
+    openHours: {
+      mon_thu: '10:30 - 15:00',
+      fri: '10:30 - 14:30',
+      sat_sun: 'Suljettu',
+      lunch: '10:30 - 14:30'
+    },
+    lunchHours: { start: '10:30', end: '14:30' },
+    studentPrice: '3,10 €',
+    staffPrice: '6,30 €',
+    guestPrice: '9,00 €',
+    website: 'https://www.semma.fi/ravintolat/seminaarinmaki/ravintola-lozzi/',
+    mapsUrl: 'https://maps.google.com/?q=Ravintola+Lozzi+Jyväskylä',
+    description: 'Jyväskylän yliopiston klassikkoravintola Alvar Aallon suunnittelemassa rakennuksessa.',
+    highlights: ['Klassikko', 'Monipuolinen salaattipöytä', 'Kasvis & Vegaani']
+  },
+  {
+    id: 'ilokivi',
+    name: 'Ravintola Ilokivi',
+    campus: 'seminaarinmaki',
+    campusName: 'Seminaarinmäki',
+    building: 'Ylioppilastalo Ilokivi',
+    address: 'Keskussairaalantie 2, 40600 Jyväskylä',
+    operator: 'JYY / Semma',
+    provider: 'ilokivi',
+    openHours: {
+      mon_fri: '10:45 - 16:00',
+      sat_sun: 'Suljettu',
+      lunch: '10:45 - 16:00'
+    },
+    lunchHours: { start: '10:45', end: '16:00' },
+    studentPrice: '3,10 €',
+    staffPrice: '6,30 €',
+    guestPrice: '9,00 €',
+    website: 'https://www.ilokivi.fi/ravintola/lounas/',
+    mapsUrl: 'https://maps.google.com/?q=Ravintola+Ilokivi+Jyväskylä',
+    description: 'Ylioppilaskunnan legendaarinen lounasravintola – tunnettu tuoreista sämpylöistään ja herkullisesta kotiruuasta.',
+    highlights: ['Tuoreet sämpylät', 'Auki klo 16 asti', 'Leftover-myynti 16:00–16:15']
+  },
+  {
+    id: 'taide-tiede',
+    name: 'Ravintola Taide & Kahvila Tiede',
+    campus: 'seminaarinmaki',
+    campusName: 'Seminaarinmäki',
+    building: 'Lähde (Yliopiston pääkirjasto, B-rakennus)',
+    address: 'Seminaarinkatu 15, 40100 Jyväskylä',
+    operator: 'Compass Group',
+    provider: 'compass',
+    costCenter: '0301',
+    openHours: {
+      mon_fri: '10:30 - 15:00',
+      sat_sun: 'Suljettu',
+      lunch: '10:30 - 14:30'
+    },
+    lunchHours: { start: '10:30', end: '14:30' },
+    studentPrice: '3,10 €',
+    staffPrice: '6,25 €',
+    guestPrice: '6,75 €',
+    website: 'https://www.compass-group.fi/ravintolat-ja-ruokalistat/foodco/kaupungit/jyvaskyla/taide/',
+    mapsUrl: 'https://maps.google.com/?q=Lähde+kirjasto+Jyväskylä',
+    description: 'Valoisa ja moderni ravintola upeassa Lähde-kirjastossa yliopiston ytimessä.',
+    highlights: ['Upea kirjastomiljöö', 'Reilu kasvisvalikoima', 'Kahvilapalvelut']
+  },
+  {
+    id: 'syke',
+    name: 'Kahvila Syke',
+    campus: 'seminaarinmaki',
+    campusName: 'Seminaarinmäki',
+    building: 'Liikuntarakennus (L-rakennus)',
+    address: 'Keskussairaalantie 4, 40600 Jyväskylä',
+    operator: 'Semma',
+    provider: 'semma',
+    costCenter: '1405',
+    openHours: {
+      mon_fri: '08:00 - 16:00',
+      sat_sun: 'Suljettu',
+      lunch: '10:30 - 14:00'
+    },
+    lunchHours: { start: '10:30', end: '14:00' },
+    studentPrice: '3,10 €',
+    staffPrice: '6,30 €',
+    guestPrice: '9,00 €',
+    website: 'https://www.semma.fi/ravintolat/seminaarinmaki/kahvila-syke/',
+    mapsUrl: 'https://maps.google.com/?q=Kahvila+Syke+Jyväskylä',
+    description: 'Liikuntatieteellisen sydämessä sijaitseva virkistävä lounaskahvila.',
+    highlights: ['Liikuntakampus', 'Smoothiet & lounas', 'Keittolounas']
+  },
+  {
+    id: 'belvedere',
+    name: 'Kahvila Belvedere',
+    campus: 'seminaarinmaki',
+    campusName: 'Seminaarinmäki',
+    building: 'C-rakennus',
+    address: 'Seminaarinkatu 15, 40100 Jyväskylä',
+    operator: 'Semma',
+    provider: 'semma',
+    costCenter: '1404',
+    openHours: {
+      mon_fri: '08:30 - 15:00',
+      sat_sun: 'Suljettu',
+      lunch: '10:45 - 14:00'
+    },
+    lunchHours: { start: '10:45', end: '14:00' },
+    studentPrice: '3,10 €',
+    staffPrice: '6,70 €',
+    guestPrice: '9,90 €',
+    website: 'https://www.semma.fi/ravintolat/seminaarinmaki/kahvila-belvedere/',
+    mapsUrl: 'https://maps.google.com/?q=Kahvila+Belvedere+Jyväskylä',
+    description: 'Idyllinen kahvila ja keittolounas Seminaarinmäen C-rakennuksessa.',
+    highlights: ['Keittolounas', 'Salaattibaari', 'Rauhallinen tunnelma']
+  },
+  {
+    id: 'tilia',
+    name: 'Ravintola Tilia',
+    campus: 'seminaarinmaki',
+    campusName: 'Seminaarinmäki',
+    building: 'T-rakennus',
+    address: 'Seminaarinkatu 15, 40100 Jyväskylä',
+    operator: 'Semma',
+    provider: 'semma',
+    costCenter: '1413',
+    openHours: {
+      mon_fri: '11:00 - 14:00',
+      sat_sun: 'Suljettu',
+      lunch: '11:00 - 14:00'
+    },
+    lunchHours: { start: '11:00', end: '14:00' },
+    studentPrice: '3,10 €',
+    staffPrice: '6,70 €',
+    guestPrice: '9,00 €',
+    website: 'https://www.semma.fi/ravintolat/seminaarinmaki/ravintola-tilia/',
+    mapsUrl: 'https://maps.google.com/?q=Ravintola+Tilia+Jyväskylä',
+    description: 'Kodikas opiskelija- ja henkilöstöravintola T-rakennuksessa.',
+    highlights: ['Kotiruoka', 'Seminaarinmäki', 'Lounasbuffet']
+  },
+
+  // Mattilanniemi
+  {
+    id: 'piato',
+    name: 'Ravintola Piato',
+    campus: 'mattilanniemi',
+    campusName: 'Mattilanniemi',
+    building: 'Agora (Jyväsjärven rannalla)',
+    address: 'Mattilanniemi 2, 40100 Jyväskylä',
+    operator: 'Semma',
+    provider: 'semma',
+    costCenter: '1408',
+    openHours: {
+      mon_fri: '08:00 - 16:00',
+      sat_sun: 'Suljettu',
+      lunch: '10:30 - 14:30'
+    },
+    lunchHours: { start: '10:30', end: '14:30' },
+    studentPrice: '3,10 €',
+    staffPrice: '6,30 €',
+    guestPrice: '9,00 €',
+    website: 'https://www.semma.fi/ravintolat/mattilanniemi/ravintola-piato/',
+    mapsUrl: 'https://maps.google.com/?q=Ravintola+Piato+Jyväskylä',
+    description: 'Agoran maamerkkiravintola upealla järvinäköalalla ja erittäin laajalla lounasvalikoimalla.',
+    highlights: ['Järvinäköala', 'Laaja valikoima', 'IT-tiedekunnan sydän']
+  },
+  {
+    id: 'bistro-mattilanniemi',
+    name: 'Bistro Mattilanniemi',
+    campus: 'mattilanniemi',
+    campusName: 'Mattilanniemi',
+    building: 'Mattilanniemi 6',
+    address: 'Mattilanniemi 6, 40100 Jyväskylä',
+    operator: 'Compass Group',
+    provider: 'compass',
+    costCenter: '3081',
+    openHours: {
+      mon_fri: '08:00 - 14:30',
+      sat_sun: 'Suljettu',
+      lunch: '10:30 - 13:30'
+    },
+    lunchHours: { start: '10:30', end: '13:30' },
+    studentPrice: '3,10 €',
+    staffPrice: '7,50 €',
+    guestPrice: '11,00 €',
+    website: 'https://www.compass-group.fi/ravintolat-ja-ruokalistat/muut-avoimet-ravintolat/kaupungit/jyvaskyla/bistro-mattilanniemi/',
+    mapsUrl: 'https://maps.google.com/?q=Bistro+Mattilanniemi+Jyväskylä',
+    description: 'Tyylikäs bistro Mattilanniemen toimistorakennuksessa opiskelija-alennuksella.',
+    highlights: ['Opiskelijahinta 3,10 €', 'Laadukas bistro', 'Rauhallinen']
+  },
+
+  // Ylistönrinne & Ylistönmäki
+  {
+    id: 'ylisto',
+    name: 'Ravintola Ylistö',
+    campus: 'ylisto',
+    campusName: 'Ylistönrinne',
+    building: 'YK-rakennus (Kemian laitos)',
+    address: 'Survontie 9, 40500 Jyväskylä',
+    operator: 'Semma',
+    provider: 'semma',
+    costCenter: '1403',
+    openHours: {
+      mon_fri: '08:30 - 15:00',
+      sat_sun: 'Suljettu',
+      lunch: '10:30 - 14:00'
+    },
+    lunchHours: { start: '10:30', end: '14:00' },
+    studentPrice: '3,10 €',
+    staffPrice: '6,30 €',
+    guestPrice: '9,00 €',
+    website: 'https://www.semma.fi/ravintolat/ylistonrinne/ravintola-ylisto/',
+    mapsUrl: 'https://maps.google.com/?q=Ravintola+Ylistö+Jyväskylä',
+    description: 'Matemaattis-luonnontieteellisen tiedekunnan pääravintola Ylistönrinteen sillan kupeessa.',
+    highlights: ['Monipuolinen buffet', 'Erikoislounasvaihtoehdot', 'Luonnontieteet']
+  },
+  {
+    id: 'kvarkki',
+    name: 'Kahvila Kvarkki',
+    campus: 'ylisto',
+    campusName: 'Ylistönrinne',
+    building: 'YN-rakennus (Fysiikan laitos)',
+    address: 'Survontie 9, 40500 Jyväskylä',
+    operator: 'Semma',
+    provider: 'semma',
+    costCenter: '140301',
+    openHours: {
+      mon_fri: '08:30 - 14:00',
+      sat_sun: 'Suljettu',
+      lunch: '11:00 - 13:30'
+    },
+    lunchHours: { start: '11:00', end: '13:30' },
+    studentPrice: '3,10 €',
+    staffPrice: '6,30 €',
+    guestPrice: '9,00 €',
+    website: 'https://www.semma.fi/ravintolat/ylistonrinne/kahvila-kvarkki/',
+    mapsUrl: 'https://maps.google.com/?q=Kahvila+Kvarkki+Jyväskylä',
+    description: 'Fysiikan laitoksen viihtyisä kahvila ja lounaspiste.',
+    highlights: ['Nopea keitto & salaatti', 'Tuoreet kahvit', 'Fysiikan laitos']
+  },
+  {
+    id: 'salvia',
+    name: 'Ravintola Salvia',
+    campus: 'ylisto',
+    campusName: 'Ylistönmäki',
+    building: 'Ylistönmäentie 26',
+    address: 'Ylistönmäentie 26, 40500 Jyväskylä',
+    operator: 'Compass Group',
+    provider: 'compass',
+    costCenter: '1300',
+    openHours: {
+      mon_fri: '10:30 - 13:30',
+      sat_sun: 'Suljettu',
+      lunch: '10:30 - 13:30'
+    },
+    lunchHours: { start: '10:30', end: '13:30' },
+    studentPrice: '3,10 €',
+    staffPrice: '7,50 €',
+    guestPrice: '10,50 €',
+    website: 'https://www.compass-group.fi/ravintolat-ja-ruokalistat/foodco/kaupungit/jyvaskyla/salvia/',
+    mapsUrl: 'https://maps.google.com/?q=Ravintola+Salvia+Jyväskylä',
+    description: 'Ylistönmäen teknologiakeskuksen lounasravintola herkullisine buffet-annoksineen.',
+    highlights: ['Lounasbuffet', 'Teknologiakeskus', 'Monipuolinen menu']
+  },
+
+  // Ruusupuisto & Kortepohja
+  {
+    id: 'uno',
+    name: 'Ravintola Uno',
+    campus: 'ruusupuisto',
+    campusName: 'Ruusupuisto & Kortepohja',
+    building: 'Ruusupuisto (Kasvatustieteet)',
+    address: 'Alvar Aallon katu 9, 40600 Jyväskylä',
+    operator: 'Semma',
+    provider: 'semma',
+    costCenter: '1414',
+    openHours: {
+      mon_fri: '08:00 - 15:30',
+      sat_sun: 'Suljettu',
+      lunch: '10:30 - 14:00'
+    },
+    lunchHours: { start: '10:30', end: '14:00' },
+    studentPrice: '3,10 €',
+    staffPrice: '6,30 €',
+    guestPrice: '9,00 €',
+    website: 'https://www.semma.fi/ravintolat/ruusupuisto/ravintola-uno/',
+    mapsUrl: 'https://maps.google.com/?q=Ravintola+Uno+Jyväskylä',
+    description: 'Valoisa Ruusupuiston opiskelijaravintola, jossa nautit lounaan upeassa arkkitehtuurissa.',
+    highlights: ['Upea arkkitehtuuri', 'Kasvatus- ja psykologia', 'Hyvät vegaaniruoat']
+  },
+  {
+    id: 'rentukka',
+    name: 'Ravintola Rentukka',
+    campus: 'ruusupuisto',
+    campusName: 'Ruusupuisto & Kortepohja',
+    building: 'Kortepohjan Ylioppilaskylä',
+    address: 'Taitoniekantie 9, 40740 Jyväskylä',
+    operator: 'Semma',
+    provider: 'semma',
+    costCenter: '1416',
+    openHours: {
+      mon_fri: '10:30 - 14:30',
+      sat_sun: 'Suljettu',
+      lunch: '10:30 - 14:30'
+    },
+    lunchHours: { start: '10:30', end: '14:30' },
+    studentPrice: '3,10 €',
+    staffPrice: '6,30 €',
+    guestPrice: '9,00 €',
+    website: 'https://www.semma.fi/ravintolat/muut/ravintola-rentukka/',
+    mapsUrl: 'https://maps.google.com/?q=Ravintola+Rentukka+Jyväskylä',
+    description: 'Ylioppilaskylän sydän ja kyläläisten kohtauspaikka Kortepohjassa.',
+    highlights: ['Ylioppilaskylä', 'Burgereita & kotiruokaa', 'Lämmin kylätunnelma']
+  },
+
+  // JAMK & Lutakko
+  {
+    id: 'jamk-twist',
+    name: 'Ravintola Twist (JAMK)',
+    campus: 'jamk',
+    campusName: 'JAMK & Lutakko',
+    building: 'JAMK Pääkampus (Rajakatu 35)',
+    address: 'Rajakatu 35, 40200 Jyväskylä',
+    operator: 'Juvenes',
+    provider: 'juvenes',
+    jamixKitchen: '60',
+    jamixMenuType: '102',
+    openHours: {
+      mon_fri: '07:45 - 15:00',
+      sat_sun: 'Suljettu',
+      lunch: '10:30 - 14:00'
+    },
+    lunchHours: { start: '10:30', end: '14:00' },
+    studentPrice: '3,10 €',
+    staffPrice: '6,50 €',
+    guestPrice: '9,20 €',
+    website: 'https://www.juvenes.fi/twist/',
+    mapsUrl: 'https://maps.google.com/?q=Jamk+Rajakatu+35+Jyväskylä',
+    description: 'JAMK:n pääkampuksen suurin ja vilkkain opiskelijaravintola.',
+    highlights: ['JAMK Pääkampus', 'Monipuolinen linjasto', 'Tuore leipä & salaatit']
+  },
+  {
+    id: 'jamk-curve',
+    name: 'Café Curve (JAMK)',
+    campus: 'jamk',
+    campusName: 'JAMK & Lutakko',
+    building: 'JAMK Pääkampus (Rajakatu 35, D-siipi)',
+    address: 'Rajakatu 35, 40200 Jyväskylä',
+    operator: 'Juvenes',
+    provider: 'juvenes',
+    jamixKitchen: '60',
+    jamixMenuType: '100',
+    openHours: {
+      mon_fri: '08:00 - 14:30',
+      sat_sun: 'Suljettu',
+      lunch: '10:45 - 13:30'
+    },
+    lunchHours: { start: '10:45', end: '13:30' },
+    studentPrice: '3,10 €',
+    staffPrice: '6,50 €',
+    guestPrice: '9,20 €',
+    website: 'https://www.juvenes.fi/curve/',
+    mapsUrl: 'https://maps.google.com/?q=Jamk+Rajakatu+35+Jyväskylä',
+    description: 'Pääkampuksen rento kahvila ja keittolounaspiste.',
+    highlights: ['Keittolounas', 'Erikoiskahvit', 'JAMK']
+  },
+  {
+    id: 'jamk-cube',
+    name: 'Ravintola Cube (JAMK Dynamo)',
+    campus: 'jamk',
+    campusName: 'JAMK & Lutakko',
+    building: 'JAMK Lutakon kampus (Dynamo)',
+    address: 'Piippukatu 2, 40100 Jyväskylä',
+    operator: 'Juvenes',
+    provider: 'juvenes',
+    jamixKitchen: '61',
+    jamixMenuType: '100',
+    openHours: {
+      mon_fri: '08:00 - 14:30',
+      sat_sun: 'Suljettu',
+      lunch: '10:30 - 13:45'
+    },
+    lunchHours: { start: '10:30', end: '13:45' },
+    studentPrice: '3,10 €',
+    staffPrice: '6,50 €',
+    guestPrice: '9,20 €',
+    website: 'https://www.juvenes.fi/cube/',
+    mapsUrl: 'https://maps.google.com/?q=Dynamo+Piippukatu+2+Jyväskylä',
+    description: 'Lutakon kampuksen viihtyisä opiskelijaravintola Dynamon aulassa.',
+    highlights: ['Lutakko', 'IT & Liiketalous', 'Maukas kotiruoka']
+  },
+  {
+    id: 'fiilu',
+    name: 'Ravintola Fiilu',
+    campus: 'jamk',
+    campusName: 'JAMK & Lutakko',
+    building: 'Innova 2 (Lutakko)',
+    address: 'Piippukatu 11, 40100 Jyväskylä',
+    operator: 'Compass Group',
+    provider: 'compass',
+    costCenter: '3364',
+    openHours: {
+      mon_fri: '08:00 - 15:00',
+      sat_sun: 'Suljettu',
+      lunch: '10:30 - 13:30'
+    },
+    lunchHours: { start: '10:30', end: '13:30' },
+    studentPrice: '3,10 €',
+    staffPrice: '7,50 €',
+    guestPrice: '13,00 €',
+    website: 'https://www.compass-group.fi/ravintolat-ja-ruokalistat/foodco/kaupungit/jyvaskyla/fiilu/',
+    mapsUrl: 'https://maps.google.com/?q=Ravintola+Fiilu+Jyväskylä',
+    description: 'Innova-tornien yhteydessä toimiva moderni lounasravintola Lutakossa.',
+    highlights: ['Innova Lutakko', 'Opiskelijahinta saatavilla', 'Laadukas salaattipöytä']
+  },
+  {
+    id: 'normaalikoulu',
+    name: 'Normaalikoulun Ravintola',
+    campus: 'seminaarinmaki',
+    campusName: 'Seminaarinmäki',
+    building: 'Normaalikoulu',
+    address: 'Juhani Ahon tie 6, 40100 Jyväskylä',
+    operator: 'Semma',
+    provider: 'semma',
+    costCenter: '1411',
+    openHours: {
+      mon_fri: '11:00 - 13:30',
+      sat_sun: 'Suljettu',
+      lunch: '11:00 - 13:30'
+    },
+    lunchHours: { start: '11:00', end: '13:30' },
+    studentPrice: '3,10 €',
+    staffPrice: '6,30 €',
+    guestPrice: '8,50 €',
+    website: 'https://www.semma.fi/ravintolat/muut/normaalikoulu/',
+    mapsUrl: 'https://maps.google.com/?q=Normaalikoulu+Jyväskylä',
+    description: 'Norssin opiskelija- ja opettajaravintola.',
+    highlights: ['Perinteinen kotiruoka', 'Seminaarinmäen kupeessa']
+  }
+];
+
+export const CAMPUSES = [
+  { id: 'all', name: 'Kaikki kampukset', icon: 'Sparkles' },
+  { id: 'seminaarinmaki', name: 'Seminaarinmäki', icon: 'Landmark' },
+  { id: 'mattilanniemi', name: 'Mattilanniemi', icon: 'Waves' },
+  { id: 'ylisto', name: 'Ylistönrinne & Mäki', icon: 'Mountain' },
+  { id: 'jamk', name: 'JAMK & Lutakko', icon: 'GraduationCap' },
+  { id: 'ruusupuisto', name: 'Ruusupuisto & Kortepohja', icon: 'Trees' }
+];
+
+export const DIET_FILTERS = [
+  { id: 'Veg', label: 'Vegaani', icon: 'Leaf', badge: 'VEG', color: 'emerald' },
+  { id: 'G', label: 'Gluteeniton', icon: 'WheatOff', badge: 'G', color: 'amber' },
+  { id: 'L', label: 'Laktoositon', icon: 'MilkOff', badge: 'L', color: 'blue' },
+  { id: 'M', label: 'Maidoton', icon: 'Droplets', badge: 'M', color: 'cyan' },
+  { id: 'ILM', label: 'Ilmasto', icon: 'Globe', badge: 'ILMASTO', color: 'teal' },
+  { id: 'SYD', label: 'Sydänmerkki', icon: 'Heart', badge: '❤️', color: 'rose' }
+];
