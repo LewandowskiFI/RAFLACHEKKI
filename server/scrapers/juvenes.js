@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-// Typical seasonal student menus for JAMK Juvenes restaurants as fallback
+// Typical seasonal student menus for JAMK & Kangas Juvenes restaurants as fallback
 const JAMK_FALLBACK_MENUS = {
   twist: [
     {
@@ -97,12 +97,51 @@ const JAMK_FALLBACK_MENUS = {
       isGlutenFree: true,
       isLactoseFree: true
     }
+  ],
+  anna: [
+    {
+      title: 'Annan Lounasbuffet',
+      price: '3,10 € / 13,60 €',
+      meals: [
+        { name: 'Mureaa porsaan ulkofileetä ja tummaa rosmariinikastiketta', diets: ['L', 'G', '*'], allergens: ['Selleri'] },
+        { name: 'Kermaperunoita ja paahdettuja uunijuureksia', diets: ['L', 'G'], allergens: ['Maito'] }
+      ],
+      diets: ['L', 'G', '*'],
+      isVegetarian: false,
+      isVegan: false,
+      isGlutenFree: true,
+      isLactoseFree: true
+    },
+    {
+      title: 'Annan Kasvis- & Vegaanilounas',
+      price: '3,10 € / 13,60 €',
+      meals: [
+        { name: 'Punajuuri-vuohenjuustopihvit & yrttikermaviiliä', diets: ['L', 'G', 'ILM', '*'], allergens: ['Maito'] },
+        { name: 'Talon perunasosetta', diets: ['L', 'G'], allergens: ['Maito'] }
+      ],
+      diets: ['L', 'G', 'ILM', '*'],
+      isVegetarian: true,
+      isVegan: false,
+      isGlutenFree: true,
+      isLactoseFree: true
+    },
+    {
+      title: 'Annan Keittolounas & Salaattipöytä',
+      price: '3,10 € / 10,50 €',
+      meals: [
+        { name: 'Samettista maa-artisokkakeittoa ja paahdettuja siemeniä', diets: ['VEG', 'G', 'ILM'], allergens: [] }
+      ],
+      diets: ['VEG', 'G', 'ILM'],
+      isVegetarian: true,
+      isVegan: true,
+      isGlutenFree: true,
+      isLactoseFree: true
+    }
   ]
 };
 
 export async function fetchJuvenesMenu(restaurantId, kitchenId, menuTypeId, dateStr) {
   try {
-    // Attempt Jamix cloud fetch
     const url = `https://fi.jamix.cloud/apps/menuservice/rest/haku/menu/93077/${kitchenId}?lang=fi`;
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 2500);
@@ -126,7 +165,6 @@ export async function fetchJuvenesMenu(restaurantId, kitchenId, menuTypeId, date
           : menuTypes[0];
 
         if (menuType && menuType.menus) {
-          // Find matching day
           const targetDayNum = dateStr ? parseInt(dateStr.replace(/-/g, ''), 10) : null;
           let matchedDay = null;
 
@@ -178,11 +216,15 @@ export async function fetchJuvenesMenu(restaurantId, kitchenId, menuTypeId, date
       }
     }
   } catch (err) {
-    // Silently fall back to cached / curated fallback menus
+    // Fallback gracefully
   }
 
-  // Fallback to high quality JAMK lunch data
-  const key = restaurantId.replace('jamk-', '');
+  // Fallback to high quality curated lunch data
+  let key = 'twist';
+  if (restaurantId.includes('anna')) key = 'anna';
+  else if (restaurantId.includes('cube')) key = 'cube';
+  else if (restaurantId.includes('curve')) key = 'curve';
+
   const packages = JAMK_FALLBACK_MENUS[key] || JAMK_FALLBACK_MENUS.twist;
 
   return {

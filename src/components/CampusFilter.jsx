@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, Landmark, Waves, Mountain, GraduationCap, Trees } from 'lucide-react';
+import { Sparkles, Landmark, Waves, Mountain, GraduationCap, Building2, Trees } from 'lucide-react';
 
 const ICON_MAP = {
   Sparkles,
@@ -7,6 +7,7 @@ const ICON_MAP = {
   Waves,
   Mountain,
   GraduationCap,
+  Building2,
   Trees
 };
 

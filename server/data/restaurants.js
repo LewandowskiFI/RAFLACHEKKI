@@ -144,6 +144,30 @@ export const RESTAURANTS = [
     description: 'Kodikas opiskelija- ja henkilöstöravintola T-rakennuksessa.',
     highlights: ['Kotiruoka', 'Seminaarinmäki', 'Lounasbuffet']
   },
+  {
+    id: 'normaalikoulu',
+    name: 'Normaalikoulun Ravintola',
+    campus: 'seminaarinmaki',
+    campusName: 'Seminaarinmäki',
+    building: 'Normaalikoulu',
+    address: 'Juhani Ahon tie 6, 40100 Jyväskylä',
+    operator: 'Semma',
+    provider: 'semma',
+    costCenter: '1411',
+    openHours: {
+      mon_fri: '11:00 - 13:30',
+      sat_sun: 'Suljettu',
+      lunch: '11:00 - 13:30'
+    },
+    lunchHours: { start: '11:00', end: '13:30' },
+    studentPrice: '3,10 €',
+    staffPrice: '6,30 €',
+    guestPrice: '8,50 €',
+    website: 'https://www.semma.fi/ravintolat/muut/normaalikoulu/',
+    mapsUrl: 'https://maps.google.com/?q=Normaalikoulu+Jyväskylä',
+    description: 'Norssin opiskelija- ja opettajaravintola.',
+    highlights: ['Perinteinen kotiruoka', 'Seminaarinmäen kupeessa']
+  },
 
   // Mattilanniemi
   {
@@ -200,7 +224,7 @@ export const RESTAURANTS = [
     id: 'ylisto',
     name: 'Ravintola Ylistö',
     campus: 'ylisto',
-    campusName: 'Ylistönrinne',
+    campusName: 'Ylistönrinne & Mäki',
     building: 'YK-rakennus (Kemian laitos)',
     address: 'Survontie 9, 40500 Jyväskylä',
     operator: 'Semma',
@@ -224,7 +248,7 @@ export const RESTAURANTS = [
     id: 'kvarkki',
     name: 'Kahvila Kvarkki',
     campus: 'ylisto',
-    campusName: 'Ylistönrinne',
+    campusName: 'Ylistönrinne & Mäki',
     building: 'YN-rakennus (Fysiikan laitos)',
     address: 'Survontie 9, 40500 Jyväskylä',
     operator: 'Semma',
@@ -248,7 +272,7 @@ export const RESTAURANTS = [
     id: 'salvia',
     name: 'Ravintola Salvia',
     campus: 'ylisto',
-    campusName: 'Ylistönmäki',
+    campusName: 'Ylistönrinne & Mäki',
     building: 'Ylistönmäentie 26',
     address: 'Ylistönmäentie 26, 40500 Jyväskylä',
     operator: 'Compass Group',
@@ -267,6 +291,33 @@ export const RESTAURANTS = [
     mapsUrl: 'https://maps.google.com/?q=Ravintola+Salvia+Jyväskylä',
     description: 'Ylistönmäen teknologiakeskuksen lounasravintola herkullisine buffet-annoksineen.',
     highlights: ['Lounasbuffet', 'Teknologiakeskus', 'Monipuolinen menu']
+  },
+
+  // Kangas & Gradia
+  {
+    id: 'anna-kangas',
+    name: 'Ravintola Anna (Kangas)',
+    campus: 'kangas',
+    campusName: 'Kangas & Gradia',
+    building: 'Kankaan Arkki',
+    address: 'Kympinkatu 3 C, 40320 Jyväskylä',
+    operator: 'Juvenes',
+    provider: 'juvenes',
+    jamixKitchen: '65',
+    jamixMenuType: '98',
+    openHours: {
+      mon_fri: '07:30 - 14:30',
+      sat_sun: 'Suljettu',
+      lunch: '10:30 - 13:00'
+    },
+    lunchHours: { start: '10:30', end: '13:00' },
+    studentPrice: '3,10 €',
+    staffPrice: '11,00 €',
+    guestPrice: '13,60 €',
+    website: 'https://www.juvenes.fi/anna/',
+    mapsUrl: 'https://maps.google.com/?q=Ravintola+Anna+Kympinkatu+3+C+Jyväskylä',
+    description: 'Kankaan upeassa ja rouheassa miljöössä toimiva monipuolinen lounasravintola ja lounasbuffet.',
+    highlights: ['Kankaan Arkki', 'Monipuolinen lounasbuffet', 'Tuore leipä & salaattipöytä']
   },
 
   // Ruusupuisto & Kortepohja
@@ -418,30 +469,6 @@ export const RESTAURANTS = [
     mapsUrl: 'https://maps.google.com/?q=Ravintola+Fiilu+Jyväskylä',
     description: 'Innova-tornien yhteydessä toimiva moderni lounasravintola Lutakossa.',
     highlights: ['Innova Lutakko', 'Opiskelijahinta saatavilla', 'Laadukas salaattipöytä']
-  },
-  {
-    id: 'normaalikoulu',
-    name: 'Normaalikoulun Ravintola',
-    campus: 'seminaarinmaki',
-    campusName: 'Seminaarinmäki',
-    building: 'Normaalikoulu',
-    address: 'Juhani Ahon tie 6, 40100 Jyväskylä',
-    operator: 'Semma',
-    provider: 'semma',
-    costCenter: '1411',
-    openHours: {
-      mon_fri: '11:00 - 13:30',
-      sat_sun: 'Suljettu',
-      lunch: '11:00 - 13:30'
-    },
-    lunchHours: { start: '11:00', end: '13:30' },
-    studentPrice: '3,10 €',
-    staffPrice: '6,30 €',
-    guestPrice: '8,50 €',
-    website: 'https://www.semma.fi/ravintolat/muut/normaalikoulu/',
-    mapsUrl: 'https://maps.google.com/?q=Normaalikoulu+Jyväskylä',
-    description: 'Norssin opiskelija- ja opettajaravintola.',
-    highlights: ['Perinteinen kotiruoka', 'Seminaarinmäen kupeessa']
   }
 ];
 
@@ -451,6 +478,7 @@ export const CAMPUSES = [
   { id: 'mattilanniemi', name: 'Mattilanniemi', icon: 'Waves' },
   { id: 'ylisto', name: 'Ylistönrinne & Mäki', icon: 'Mountain' },
   { id: 'jamk', name: 'JAMK & Lutakko', icon: 'GraduationCap' },
+  { id: 'kangas', name: 'Kangas & Gradia', icon: 'Building2' },
   { id: 'ruusupuisto', name: 'Ruusupuisto & Kortepohja', icon: 'Trees' }
 ];
 
