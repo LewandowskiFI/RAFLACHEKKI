@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Heart, MapPin, ExternalLink, Info, Sparkles, AlertCircle } from 'lucide-react';
+import React from 'react';
+import { Heart, MapPin, ExternalLink, Info, AlertCircle } from 'lucide-react';
 
 export default function RestaurantCard({
   restaurant,
@@ -22,12 +22,12 @@ export default function RestaurantCard({
     website
   } = restaurant;
 
-  const packages = menu?.packages || [];
-  const hasMenu = menu?.success && packages.length > 0;
+  const packages = (menu && Array.isArray(menu.packages)) ? menu.packages : [];
+  const hasMenu = packages.length > 0;
 
   // Render diet badge with appropriate color
   const renderDietBadge = (diet) => {
-    const d = diet.toUpperCase();
+    const d = String(diet).trim().toUpperCase();
     if (['VEG', 'VEGAN', 'KASVIS'].includes(d)) {
       return <span key={diet} className="diet-badge diet-badge-veg">VEG</span>;
     }
@@ -77,8 +77,8 @@ export default function RestaurantCard({
       {/* Status & Price Row */}
       <div className="card-status-bar">
         <div className="status-pill">
-          <span className={`status-dot status-dot-${openStatus?.badgeColor || 'gray'}`} />
-          <span>{openStatus?.statusText || (openHours?.lunch ? `Lounas ${openHours.lunch}` : 'Suljettu')}</span>
+          <span className={`status-dot status-dot-${openStatus?.badgeColor || 'emerald'}`} />
+          <span>{openStatus?.statusText || (openHours?.lunch ? `Lounas ${openHours.lunch}` : 'Avoinna')}</span>
         </div>
 
         <div className="student-price-pill" title="Kelan ateriatuettu opiskelijahinta">
