@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import path from 'path';
+import fs from 'fs/promises';
 import { fileURLToPath } from 'url';
 import { RESTAURANTS, CAMPUSES, DIET_FILTERS } from './data/restaurants.js';
 import { fetchSemmaMenu, fetchSemmaWeekMenu } from './scrapers/semma.js';
@@ -20,6 +21,20 @@ app.use(express.json());
 // In-memory cache for menus
 const menuCache = new Map();
 const CACHE_TTL_MS = 15 * 60 * 1000; // 15 minutes
+let preloadedWeekData = null;
+
+// Preload scraped JSON database
+async function loadPreloadedData() {
+  try {
+    const filePath = path.join(__dirname, 'data/menus_latest.json');
+    const content = await fs.readFile(filePath, 'utf-8');
+    preloadedWeekData = JSON.parse(content);
+    console.log(`📦 Ladattu esikaivetut ruokalistat muistiin (${preloadedWeekData.dates?.length || 0} päivää, ${preloadedWeekData.totalRestaurants || 0} ravintolaa)`);
+  } catch (err) {
+    console.warn('⚠️ Esikaivettua ruokalistatiedostoa ei löytynyt, käytetään live-hakuja.');
+  }
+}
+loadPreloadedData();
 
 function getTodayDateStr() {
   const now = new Date();
@@ -52,7 +67,7 @@ function calculateOpenStatus(restaurant) {
       isOpen: true,
       isLunchActive: true,
       statusText: 'Avoinna',
-      badgeColor: 'green'
+      badgeColor: 'emerald'
     };
   }
 
@@ -87,13 +102,32 @@ function calculateOpenStatus(restaurant) {
   }
 }
 
-// Fetch single restaurant menu with caching
-async function getRestaurantMenu(restaurant, dateStr) {
+// Fetch single restaurant menu with caching and preloaded fallback
+async function getRestaurantMenu(restaurant, dateStr, forceLive = false) {
   const cacheKey = `${restaurant.id}_${dateStr}`;
   const cached = menuCache.get(cacheKey);
 
-  if (cached && (Date.now() - cached.timestamp < CACHE_TTL_MS)) {
+  if (!forceLive && cached && (Date.now() - cached.timestamp < CACHE_TTL_MS)) {
     return cached.data;
+  }
+
+  // Check preloaded database first if available
+  if (!forceLive && preloadedWeekData && preloadedWeekData.menusByDate && preloadedWeekData.menusByDate[dateStr]) {
+    const preData = preloadedWeekData.menusByDate[dateStr][restaurant.id];
+    if (preData && preData.success && preData.packages?.length > 0) {
+      const combined = {
+        ...restaurant,
+        openStatus: calculateOpenStatus(restaurant),
+        menu: {
+          success: true,
+          packages: preData.packages
+        },
+        date: dateStr,
+        fetchedAt: preData.fetchedAt || new Date().toISOString()
+      };
+      menuCache.set(cacheKey, { timestamp: Date.now(), data: combined });
+      return combined;
+    }
   }
 
   let menuResult = { success: false, packages: [] };
@@ -141,6 +175,7 @@ app.get('/api/info', (req, res) => {
     name: 'RAFLACHEKKI API',
     version: '1.0.0',
     description: 'Jyväskylän opiskelijaravintoloiden reaaliaikainen ruokalistapalvelu',
+    lastScraped: preloadedWeekData?.updatedAt || null,
     campuses: CAMPUSES,
     dietFilters: DIET_FILTERS,
     totalRestaurants: RESTAURANTS.length
@@ -160,6 +195,7 @@ app.get('/api/restaurants', (req, res) => {
 app.get('/api/menus', async (req, res) => {
   const dateStr = req.query.date || getTodayDateStr();
   const campusFilter = req.query.campus;
+  const forceLive = req.query.fresh === 'true';
 
   let targetRestaurants = RESTAURANTS;
   if (campusFilter && campusFilter !== 'all') {
@@ -167,12 +203,13 @@ app.get('/api/menus', async (req, res) => {
   }
 
   try {
-    const promises = targetRestaurants.map(r => getRestaurantMenu(r, dateStr));
+    const promises = targetRestaurants.map(r => getRestaurantMenu(r, dateStr, forceLive));
     const results = await Promise.all(promises);
 
     res.json({
       date: dateStr,
       count: results.length,
+      lastUpdated: preloadedWeekData?.updatedAt || new Date().toISOString(),
       restaurants: results
     });
   } catch (err) {

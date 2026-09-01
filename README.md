@@ -9,6 +9,9 @@
 ## ✨ Tärkeimmät Ominaisuudet
 
 - 📅 **Päivän ruokalistat & Viikkonäkymä**: Näe tämän päivän ja koko kuluvan viikon lounaslistat yhdellä silmäyksellä.
+- 🤖 **Automaattinen Ruokalistojen Kaivaja (Scraper & Cron)**:
+  - Automaattinen skripti `npm run scrape` hakee ja jäsentää kaikkien 18 opiskelijaravintolan viikon ruokalistat suoraan virallisista järjestelmistä (Semma, Compass Group, Ilokivi, Juvenes & Jamix).
+  - GitHub Actions -työnkulku (`.github/workflows/update-menus.yml`) päivittää listat automaattisesti joka arkiaamu klo 08:00 Suomen aikaa.
 - 🏛️ **Kaikki Kampukset**:
   - **Seminaarinmäki**: Lozzi, Belvedere, Syke, Tilia, Ravintola Taide & Kahvila Tiede (Lähde), Ravintola Ilokivi, Normaalikoulu
   - **Mattilanniemi**: Piato, Bistro Mattilanniemi
@@ -29,7 +32,7 @@
 
 - **Frontend**: React 18, Vite, Lucide Icons, Modern Vanilla CSS (CSS Custom Properties, Glassmorphism, Responsive Grid)
 - **Backend**: Node.js, Express, Reaaliaikaiset API-rajapinnat ja jäsentäjät (Semma API, Compass Group API, Ilokivi Scraper, Juvenes & Jamix)
-- **Välimuisti**: In-memory caching nopeuttamaan toistuvia kyselyitä
+- **Automaatio**: Standalone Scraper CLI, GitHub Actions Cron Workflow, In-Memory Caching
 
 ---
 
@@ -40,14 +43,19 @@
 npm install
 ```
 
-### 2. Käynnistä kehityspalvelin (Frontend + Backend samanaikaisesti)
+### 2. Kaiva ja päivitä ruokalistat manuaalisesti
+```bash
+npm run scrape
+```
+
+### 3. Käynnistä kehityspalvelin (Frontend + Backend samanaikaisesti)
 ```bash
 npm run dev
 ```
 Sovellus avautuu osoitteessa: **http://localhost:5173**  
 API-taustapalvelin kuuntelee portissa: **http://localhost:3001**
 
-### 3. Tuotantoversion kääntäminen
+### 4. Tuotantoversion kääntäminen
 ```bash
 npm run build
 npm start
@@ -57,7 +65,7 @@ npm start
 
 ## 📡 API-rajapinnat
 
-- `GET /api/info` – Järjestelmän tiedot, kampukset ja ruokavaliot
+- `GET /api/info` – Järjestelmän tiedot, päivitysaika, kampukset ja ruokavaliot
 - `GET /api/restaurants` – Kaikkien Jyväskylän opiskelijaravintoloiden tiedot ja aukiolot
 - `GET /api/menus?date=YYYY-MM-DD&campus=seminaarinmaki` – Päivän ruokalistat suodatettuna
 - `GET /api/menus/:id?date=YYYY-MM-DD` – Yksittäisen ravintolan ruokalista
