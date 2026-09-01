@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T08:20:09.914Z",
+  "updatedAt": "2026-09-01T08:23:45.773Z",
   "dates": [
     "2026-08-31",
     "2026-09-01",
@@ -379,7 +379,7 @@
       "studentPrice": "3,10 €",
       "staffPrice": "11,00 €",
       "guestPrice": "13,60 €",
-      "website": "https://www.juvenes.fi/anna/",
+      "website": "https://fi.jamix.cloud/apps/menu/?anro=93077&k=65&mt=56",
       "mapsUrl": "https://maps.google.com/?q=Ravintola+Anna+Kympinkatu+3+C+Jyväskylä",
       "description": "Kankaan upeassa ja rouheassa miljöössä toimiva monipuolinen lounasravintola ja lounasbuffet.",
       "highlights": [
@@ -646,7 +646,7 @@
             "isLactoseFree": false
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:10.210Z"
+        "fetchedAt": "2026-09-01T08:23:46.062Z"
       },
       "ilokivi": {
         "success": true,
@@ -943,7 +943,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:10.867Z"
+        "fetchedAt": "2026-09-01T08:23:46.738Z"
       },
       "taide-tiede": {
         "success": true,
@@ -1313,7 +1313,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:12.653Z"
+        "fetchedAt": "2026-09-01T08:23:48.442Z"
       },
       "syke": {
         "success": true,
@@ -1497,7 +1497,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:14.222Z"
+        "fetchedAt": "2026-09-01T08:23:49.837Z"
       },
       "belvedere": {
         "success": true,
@@ -1558,7 +1558,7 @@
             "isLactoseFree": false
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:14.746Z"
+        "fetchedAt": "2026-09-01T08:23:51.200Z"
       },
       "tilia": {
         "success": true,
@@ -1652,7 +1652,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:15.320Z"
+        "fetchedAt": "2026-09-01T08:23:51.745Z"
       },
       "normaalikoulu": {
         "success": true,
@@ -1717,7 +1717,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:15.947Z"
+        "fetchedAt": "2026-09-01T08:23:52.278Z"
       },
       "piato": {
         "success": true,
@@ -1903,7 +1903,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:16.563Z"
+        "fetchedAt": "2026-09-01T08:23:52.947Z"
       },
       "bistro-mattilanniemi": {
         "success": true,
@@ -2099,7 +2099,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:17.034Z"
+        "fetchedAt": "2026-09-01T08:23:53.247Z"
       },
       "ylisto": {
         "success": true,
@@ -2224,7 +2224,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:18.804Z"
+        "fetchedAt": "2026-09-01T08:23:55.520Z"
       },
       "kvarkki": {
         "success": true,
@@ -2282,7 +2282,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:19.605Z"
+        "fetchedAt": "2026-09-01T08:23:56.106Z"
       },
       "salvia": {
         "success": true,
@@ -2377,40 +2377,83 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:20.514Z"
+        "fetchedAt": "2026-09-01T08:23:56.693Z"
       },
       "anna-kangas": {
         "success": true,
         "packages": [
           {
-            "title": "Annan Lounasbuffet",
-            "price": "3,10 € / 13,60 €",
+            "id": "juvenes-pkg-0",
+            "title": "LOUNAS",
+            "price": "3,10 €",
             "meals": [
               {
-                "name": "Mureaa porsaan ulkofileetä ja tummaa rosmariinikastiketta",
+                "name": "Kalakepukoita",
                 "diets": [
-                  "L",
                   "G",
+                  "M",
+                  "Mu",
                   "*"
                 ],
-                "allergens": [
-                  "Selleri"
-                ]
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": true
               },
               {
-                "name": "Kermaperunoita ja paahdettuja uunijuureksia",
+                "name": "Sitruunaista tilli-kermaviilikastiketta",
                 "diets": [
+                  "G",
                   "L",
-                  "G"
+                  "Mu"
                 ],
-                "allergens": [
-                  "Maito"
-                ]
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
+              },
+              {
+                "name": "Peruna-bataattimuusia",
+                "diets": [
+                  "G",
+                  "L",
+                  "Mu"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
               }
             ],
             "diets": [
-              "L",
               "G",
+              "M",
+              "Mu",
+              "*",
+              "L"
+            ],
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isLactoseFree": true
+          },
+          {
+            "id": "juvenes-pkg-1",
+            "title": "KASVISLOUNAS",
+            "price": "3,10 €",
+            "meals": [
+              {
+                "name": "Kreikkalainen kasvismunakas",
+                "diets": [
+                  "G",
+                  "L",
+                  "*"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": true
+              }
+            ],
+            "diets": [
+              "G",
+              "L",
               "*"
             ],
             "isVegetarian": false,
@@ -2419,61 +2462,44 @@
             "isLactoseFree": true
           },
           {
-            "title": "Annan Kasvis- & Vegaanilounas",
-            "price": "3,10 € / 13,60 €",
+            "id": "juvenes-pkg-2",
+            "title": "MY SOUP",
+            "price": "3,10 €",
             "meals": [
               {
-                "name": "Punajuuri-vuohenjuustopihvit & yrttikermaviiliä",
+                "name": "Tofu-currykeittoa",
                 "diets": [
-                  "L",
                   "G",
-                  "ILM",
-                  "*"
+                  "M",
+                  "Mu",
+                  "VEG",
+                  "SIS.LUOMUA"
                 ],
-                "allergens": [
-                  "Maito"
-                ]
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
               },
               {
-                "name": "Talon perunasosetta",
+                "name": "Marinoituja kikherneitä",
                 "diets": [
-                  "L",
-                  "G"
-                ],
-                "allergens": [
-                  "Maito"
-                ]
-              }
-            ],
-            "diets": [
-              "L",
-              "G",
-              "ILM",
-              "*"
-            ],
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isLactoseFree": true
-          },
-          {
-            "title": "Annan Keittolounas & Salaattipöytä",
-            "price": "3,10 € / 10,50 €",
-            "meals": [
-              {
-                "name": "Samettista maa-artisokkakeittoa ja paahdettuja siemeniä",
-                "diets": [
-                  "VEG",
                   "G",
-                  "ILM"
+                  "L",
+                  "M",
+                  "Mu",
+                  "VEG"
                 ],
-                "allergens": []
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
               }
             ],
             "diets": [
-              "VEG",
               "G",
-              "ILM"
+              "M",
+              "Mu",
+              "VEG",
+              "SIS.LUOMUA",
+              "L"
             ],
             "isVegetarian": true,
             "isVegan": true,
@@ -2481,7 +2507,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:24.066Z"
+        "fetchedAt": "2026-09-01T08:23:58.873Z"
       },
       "uno": {
         "success": true,
@@ -2694,7 +2720,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:39.389Z"
+        "fetchedAt": "2026-09-01T08:24:14.015Z"
       },
       "rentukka": {
         "success": true,
@@ -2904,7 +2930,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:39.686Z"
+        "fetchedAt": "2026-09-01T08:24:14.148Z"
       },
       "jamk-twist": {
         "success": true,
@@ -3014,7 +3040,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:42.187Z"
+        "fetchedAt": "2026-09-01T08:24:16.649Z"
       },
       "jamk-curve": {
         "success": true,
@@ -3081,7 +3107,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:59.274Z"
+        "fetchedAt": "2026-09-01T08:24:34.164Z"
       },
       "jamk-cube": {
         "success": true,
@@ -3159,7 +3185,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:21:16.795Z"
+        "fetchedAt": "2026-09-01T08:24:51.674Z"
       },
       "fiilu": {
         "success": true,
@@ -3391,7 +3417,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:21:32.026Z"
+        "fetchedAt": "2026-09-01T08:25:06.897Z"
       }
     },
     "2026-09-01": {
@@ -3518,7 +3544,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:10.210Z"
+        "fetchedAt": "2026-09-01T08:23:46.062Z"
       },
       "ilokivi": {
         "success": true,
@@ -3819,7 +3845,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:11.178Z"
+        "fetchedAt": "2026-09-01T08:23:46.972Z"
       },
       "taide-tiede": {
         "success": true,
@@ -4568,7 +4594,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:12.796Z"
+        "fetchedAt": "2026-09-01T08:23:48.585Z"
       },
       "syke": {
         "success": true,
@@ -4725,7 +4751,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:14.222Z"
+        "fetchedAt": "2026-09-01T08:23:49.837Z"
       },
       "belvedere": {
         "success": true,
@@ -4786,7 +4812,7 @@
             "isLactoseFree": false
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:14.746Z"
+        "fetchedAt": "2026-09-01T08:23:51.200Z"
       },
       "tilia": {
         "success": true,
@@ -4856,7 +4882,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:15.320Z"
+        "fetchedAt": "2026-09-01T08:23:51.745Z"
       },
       "normaalikoulu": {
         "success": true,
@@ -4924,7 +4950,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:15.947Z"
+        "fetchedAt": "2026-09-01T08:23:52.278Z"
       },
       "piato": {
         "success": true,
@@ -5074,7 +5100,7 @@
             "isLactoseFree": false
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:16.563Z"
+        "fetchedAt": "2026-09-01T08:23:52.947Z"
       },
       "bistro-mattilanniemi": {
         "success": true,
@@ -5263,7 +5289,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:17.171Z"
+        "fetchedAt": "2026-09-01T08:23:53.399Z"
       },
       "ylisto": {
         "success": true,
@@ -5400,7 +5426,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:18.804Z"
+        "fetchedAt": "2026-09-01T08:23:55.520Z"
       },
       "kvarkki": {
         "success": true,
@@ -5461,7 +5487,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:19.605Z"
+        "fetchedAt": "2026-09-01T08:23:56.106Z"
       },
       "salvia": {
         "success": true,
@@ -5554,13 +5580,13 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:20.643Z"
+        "fetchedAt": "2026-09-01T08:23:56.825Z"
       },
       "anna-kangas": {
         "success": true,
         "packages": [
           {
-            "title": "Annan Lounasbuffet",
+            "title": "Annan Lounasbuffet (Jamix mt=56)",
             "price": "3,10 € / 13,60 €",
             "meals": [
               {
@@ -5658,7 +5684,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:26.567Z"
+        "fetchedAt": "2026-09-01T08:24:01.376Z"
       },
       "uno": {
         "success": true,
@@ -5811,7 +5837,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:39.389Z"
+        "fetchedAt": "2026-09-01T08:24:14.015Z"
       },
       "rentukka": {
         "success": true,
@@ -6012,7 +6038,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:39.686Z"
+        "fetchedAt": "2026-09-01T08:24:14.148Z"
       },
       "jamk-twist": {
         "success": true,
@@ -6122,7 +6148,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:44.690Z"
+        "fetchedAt": "2026-09-01T08:24:19.151Z"
       },
       "jamk-curve": {
         "success": true,
@@ -6189,7 +6215,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:21:01.776Z"
+        "fetchedAt": "2026-09-01T08:24:36.665Z"
       },
       "jamk-cube": {
         "success": true,
@@ -6267,7 +6293,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:21:19.298Z"
+        "fetchedAt": "2026-09-01T08:24:54.176Z"
       },
       "fiilu": {
         "success": true,
@@ -6506,7 +6532,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:21:32.367Z"
+        "fetchedAt": "2026-09-01T08:25:07.027Z"
       }
     },
     "2026-09-02": {
@@ -6571,7 +6597,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:10.210Z"
+        "fetchedAt": "2026-09-01T08:23:46.062Z"
       },
       "ilokivi": {
         "success": true,
@@ -6791,7 +6817,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:11.408Z"
+        "fetchedAt": "2026-09-01T08:23:47.294Z"
       },
       "taide-tiede": {
         "success": true,
@@ -7052,7 +7078,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:12.996Z"
+        "fetchedAt": "2026-09-01T08:23:48.880Z"
       },
       "syke": {
         "success": true,
@@ -7198,7 +7224,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:14.222Z"
+        "fetchedAt": "2026-09-01T08:23:49.837Z"
       },
       "belvedere": {
         "success": true,
@@ -7259,7 +7285,7 @@
             "isLactoseFree": false
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:14.746Z"
+        "fetchedAt": "2026-09-01T08:23:51.200Z"
       },
       "tilia": {
         "success": true,
@@ -7350,7 +7376,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:15.320Z"
+        "fetchedAt": "2026-09-01T08:23:51.745Z"
       },
       "normaalikoulu": {
         "success": true,
@@ -7488,7 +7514,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:15.947Z"
+        "fetchedAt": "2026-09-01T08:23:52.278Z"
       },
       "piato": {
         "success": true,
@@ -7637,7 +7663,7 @@
             "isLactoseFree": false
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:16.563Z"
+        "fetchedAt": "2026-09-01T08:23:52.947Z"
       },
       "bistro-mattilanniemi": {
         "success": true,
@@ -7828,7 +7854,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:17.368Z"
+        "fetchedAt": "2026-09-01T08:23:53.602Z"
       },
       "ylisto": {
         "success": true,
@@ -7940,7 +7966,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:18.804Z"
+        "fetchedAt": "2026-09-01T08:23:55.520Z"
       },
       "kvarkki": {
         "success": true,
@@ -7984,7 +8010,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:19.605Z"
+        "fetchedAt": "2026-09-01T08:23:56.106Z"
       },
       "salvia": {
         "success": true,
@@ -8101,13 +8127,13 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:20.828Z"
+        "fetchedAt": "2026-09-01T08:23:56.974Z"
       },
       "anna-kangas": {
         "success": true,
         "packages": [
           {
-            "title": "Annan Lounasbuffet",
+            "title": "Annan Lounasbuffet (Jamix mt=56)",
             "price": "3,10 € / 13,60 €",
             "meals": [
               {
@@ -8205,7 +8231,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:29.068Z"
+        "fetchedAt": "2026-09-01T08:24:03.878Z"
       },
       "uno": {
         "success": true,
@@ -8313,7 +8339,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:39.389Z"
+        "fetchedAt": "2026-09-01T08:24:14.015Z"
       },
       "rentukka": {
         "success": true,
@@ -8531,7 +8557,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:39.686Z"
+        "fetchedAt": "2026-09-01T08:24:14.148Z"
       },
       "jamk-twist": {
         "success": true,
@@ -8641,7 +8667,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:47.192Z"
+        "fetchedAt": "2026-09-01T08:24:21.654Z"
       },
       "jamk-curve": {
         "success": true,
@@ -8708,7 +8734,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:21:04.277Z"
+        "fetchedAt": "2026-09-01T08:24:39.167Z"
       },
       "jamk-cube": {
         "success": true,
@@ -8786,7 +8812,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:21:21.802Z"
+        "fetchedAt": "2026-09-01T08:24:56.678Z"
       },
       "fiilu": {
         "success": true,
@@ -9018,7 +9044,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:21:32.497Z"
+        "fetchedAt": "2026-09-01T08:25:08.019Z"
       }
     },
     "2026-09-03": {
@@ -9137,7 +9163,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:10.210Z"
+        "fetchedAt": "2026-09-01T08:23:46.062Z"
       },
       "ilokivi": {
         "success": true,
@@ -9360,7 +9386,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:11.691Z"
+        "fetchedAt": "2026-09-01T08:23:47.519Z"
       },
       "taide-tiede": {
         "success": true,
@@ -9971,7 +9997,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:13.207Z"
+        "fetchedAt": "2026-09-01T08:23:49.069Z"
       },
       "syke": {
         "success": true,
@@ -10129,7 +10155,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:14.223Z"
+        "fetchedAt": "2026-09-01T08:23:49.837Z"
       },
       "belvedere": {
         "success": true,
@@ -10192,7 +10218,7 @@
             "isLactoseFree": false
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:14.746Z"
+        "fetchedAt": "2026-09-01T08:23:51.200Z"
       },
       "tilia": {
         "success": true,
@@ -10317,7 +10343,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:15.320Z"
+        "fetchedAt": "2026-09-01T08:23:51.745Z"
       },
       "normaalikoulu": {
         "success": true,
@@ -10378,7 +10404,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:15.947Z"
+        "fetchedAt": "2026-09-01T08:23:52.278Z"
       },
       "piato": {
         "success": true,
@@ -10548,7 +10574,7 @@
             "isLactoseFree": false
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:16.563Z"
+        "fetchedAt": "2026-09-01T08:23:52.947Z"
       },
       "bistro-mattilanniemi": {
         "success": true,
@@ -10732,7 +10758,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:17.575Z"
+        "fetchedAt": "2026-09-01T08:23:53.740Z"
       },
       "ylisto": {
         "success": true,
@@ -10829,7 +10855,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:18.804Z"
+        "fetchedAt": "2026-09-01T08:23:55.520Z"
       },
       "kvarkki": {
         "success": true,
@@ -10897,7 +10923,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:19.605Z"
+        "fetchedAt": "2026-09-01T08:23:56.106Z"
       },
       "salvia": {
         "success": true,
@@ -11027,13 +11053,13 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:21.039Z"
+        "fetchedAt": "2026-09-01T08:23:57.189Z"
       },
       "anna-kangas": {
         "success": true,
         "packages": [
           {
-            "title": "Annan Lounasbuffet",
+            "title": "Annan Lounasbuffet (Jamix mt=56)",
             "price": "3,10 € / 13,60 €",
             "meals": [
               {
@@ -11131,7 +11157,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:31.569Z"
+        "fetchedAt": "2026-09-01T08:24:06.379Z"
       },
       "uno": {
         "success": true,
@@ -11305,7 +11331,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:39.389Z"
+        "fetchedAt": "2026-09-01T08:24:14.015Z"
       },
       "rentukka": {
         "success": true,
@@ -11489,7 +11515,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:39.686Z"
+        "fetchedAt": "2026-09-01T08:24:14.148Z"
       },
       "jamk-twist": {
         "success": true,
@@ -11599,7 +11625,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:49.693Z"
+        "fetchedAt": "2026-09-01T08:24:24.156Z"
       },
       "jamk-curve": {
         "success": true,
@@ -11666,7 +11692,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:21:06.780Z"
+        "fetchedAt": "2026-09-01T08:24:41.669Z"
       },
       "jamk-cube": {
         "success": true,
@@ -11744,7 +11770,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:21:24.305Z"
+        "fetchedAt": "2026-09-01T08:24:59.180Z"
       },
       "fiilu": {
         "success": true,
@@ -11957,7 +11983,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:21:32.882Z"
+        "fetchedAt": "2026-09-01T08:25:08.197Z"
       }
     },
     "2026-09-04": {
@@ -12024,7 +12050,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:10.210Z"
+        "fetchedAt": "2026-09-01T08:23:46.062Z"
       },
       "ilokivi": {
         "success": true,
@@ -12421,7 +12447,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:11.922Z"
+        "fetchedAt": "2026-09-01T08:23:47.795Z"
       },
       "taide-tiede": {
         "success": true,
@@ -12981,7 +13007,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:13.403Z"
+        "fetchedAt": "2026-09-01T08:23:49.265Z"
       },
       "syke": {
         "success": true,
@@ -13111,7 +13137,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:14.223Z"
+        "fetchedAt": "2026-09-01T08:23:49.837Z"
       },
       "belvedere": {
         "success": true,
@@ -13169,7 +13195,7 @@
             "isLactoseFree": false
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:14.746Z"
+        "fetchedAt": "2026-09-01T08:23:51.200Z"
       },
       "tilia": {
         "success": true,
@@ -13236,7 +13262,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:15.320Z"
+        "fetchedAt": "2026-09-01T08:23:51.745Z"
       },
       "normaalikoulu": {
         "success": true,
@@ -13350,7 +13376,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:15.947Z"
+        "fetchedAt": "2026-09-01T08:23:52.279Z"
       },
       "piato": {
         "success": true,
@@ -13512,7 +13538,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:16.564Z"
+        "fetchedAt": "2026-09-01T08:23:52.948Z"
       },
       "bistro-mattilanniemi": {
         "success": true,
@@ -13676,7 +13702,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:17.812Z"
+        "fetchedAt": "2026-09-01T08:23:53.934Z"
       },
       "ylisto": {
         "success": true,
@@ -13802,7 +13828,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:18.804Z"
+        "fetchedAt": "2026-09-01T08:23:55.520Z"
       },
       "kvarkki": {
         "success": true,
@@ -13860,7 +13886,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:19.605Z"
+        "fetchedAt": "2026-09-01T08:23:56.106Z"
       },
       "salvia": {
         "success": true,
@@ -13970,13 +13996,13 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:21.195Z"
+        "fetchedAt": "2026-09-01T08:23:57.417Z"
       },
       "anna-kangas": {
         "success": true,
         "packages": [
           {
-            "title": "Annan Lounasbuffet",
+            "title": "Annan Lounasbuffet (Jamix mt=56)",
             "price": "3,10 € / 13,60 €",
             "meals": [
               {
@@ -14074,7 +14100,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:34.071Z"
+        "fetchedAt": "2026-09-01T08:24:08.881Z"
       },
       "uno": {
         "success": true,
@@ -14212,7 +14238,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:39.389Z"
+        "fetchedAt": "2026-09-01T08:24:14.015Z"
       },
       "rentukka": {
         "success": true,
@@ -14368,7 +14394,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:39.686Z"
+        "fetchedAt": "2026-09-01T08:24:14.148Z"
       },
       "jamk-twist": {
         "success": true,
@@ -14478,7 +14504,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:52.194Z"
+        "fetchedAt": "2026-09-01T08:24:26.658Z"
       },
       "jamk-curve": {
         "success": true,
@@ -14545,7 +14571,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:21:09.281Z"
+        "fetchedAt": "2026-09-01T08:24:44.170Z"
       },
       "jamk-cube": {
         "success": true,
@@ -14623,7 +14649,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:21:26.808Z"
+        "fetchedAt": "2026-09-01T08:25:01.681Z"
       },
       "fiilu": {
         "success": true,
@@ -14821,14 +14847,14 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:21:33.062Z"
+        "fetchedAt": "2026-09-01T08:25:08.373Z"
       }
     },
     "2026-09-05": {
       "lozzi": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:10.388Z"
+        "fetchedAt": "2026-09-01T08:23:46.221Z"
       },
       "ilokivi": {
         "success": true,
@@ -15129,7 +15155,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:12.214Z"
+        "fetchedAt": "2026-09-01T08:23:48.011Z"
       },
       "taide-tiede": {
         "success": true,
@@ -15330,27 +15356,27 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:13.607Z"
+        "fetchedAt": "2026-09-01T08:23:49.411Z"
       },
       "syke": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:14.360Z"
+        "fetchedAt": "2026-09-01T08:23:50.914Z"
       },
       "belvedere": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:14.922Z"
+        "fetchedAt": "2026-09-01T08:23:51.430Z"
       },
       "tilia": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:15.488Z"
+        "fetchedAt": "2026-09-01T08:23:51.993Z"
       },
       "normaalikoulu": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:16.149Z"
+        "fetchedAt": "2026-09-01T08:23:52.525Z"
       },
       "piato": {
         "success": true,
@@ -15483,33 +15509,33 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:16.564Z"
+        "fetchedAt": "2026-09-01T08:23:52.948Z"
       },
       "bistro-mattilanniemi": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:18.251Z"
+        "fetchedAt": "2026-09-01T08:23:54.118Z"
       },
       "ylisto": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:19.062Z"
+        "fetchedAt": "2026-09-01T08:23:55.727Z"
       },
       "kvarkki": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:19.813Z"
+        "fetchedAt": "2026-09-01T08:23:56.295Z"
       },
       "salvia": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:21.370Z"
+        "fetchedAt": "2026-09-01T08:23:57.659Z"
       },
       "anna-kangas": {
         "success": true,
         "packages": [
           {
-            "title": "Annan Lounasbuffet",
+            "title": "Annan Lounasbuffet (Jamix mt=56)",
             "price": "3,10 € / 13,60 €",
             "meals": [
               {
@@ -15607,7 +15633,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:36.573Z"
+        "fetchedAt": "2026-09-01T08:24:11.383Z"
       },
       "uno": {
         "success": true,
@@ -15776,7 +15802,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:39.389Z"
+        "fetchedAt": "2026-09-01T08:24:14.015Z"
       },
       "rentukka": {
         "success": true,
@@ -15962,7 +15988,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:39.686Z"
+        "fetchedAt": "2026-09-01T08:24:14.148Z"
       },
       "jamk-twist": {
         "success": true,
@@ -16072,7 +16098,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:54.695Z"
+        "fetchedAt": "2026-09-01T08:24:29.160Z"
       },
       "jamk-curve": {
         "success": true,
@@ -16139,7 +16165,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:21:11.784Z"
+        "fetchedAt": "2026-09-01T08:24:46.671Z"
       },
       "jamk-cube": {
         "success": true,
@@ -16217,19 +16243,19 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:21:29.311Z"
+        "fetchedAt": "2026-09-01T08:25:04.182Z"
       },
       "fiilu": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:21:33.203Z"
+        "fetchedAt": "2026-09-01T08:25:08.515Z"
       }
     },
     "2026-09-06": {
       "lozzi": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:10.604Z"
+        "fetchedAt": "2026-09-01T08:23:46.357Z"
       },
       "ilokivi": {
         "success": true,
@@ -16530,63 +16556,63 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:12.436Z"
+        "fetchedAt": "2026-09-01T08:23:48.247Z"
       },
       "taide-tiede": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:13.775Z"
+        "fetchedAt": "2026-09-01T08:23:49.568Z"
       },
       "syke": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:14.543Z"
+        "fetchedAt": "2026-09-01T08:23:51.069Z"
       },
       "belvedere": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:15.098Z"
+        "fetchedAt": "2026-09-01T08:23:51.587Z"
       },
       "tilia": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:15.678Z"
+        "fetchedAt": "2026-09-01T08:23:52.141Z"
       },
       "normaalikoulu": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:16.320Z"
+        "fetchedAt": "2026-09-01T08:23:52.762Z"
       },
       "piato": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:16.751Z"
+        "fetchedAt": "2026-09-01T08:23:53.100Z"
       },
       "bistro-mattilanniemi": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:18.524Z"
+        "fetchedAt": "2026-09-01T08:23:54.294Z"
       },
       "ylisto": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:19.304Z"
+        "fetchedAt": "2026-09-01T08:23:55.894Z"
       },
       "kvarkki": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:20.286Z"
+        "fetchedAt": "2026-09-01T08:23:56.544Z"
       },
       "salvia": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:20:21.563Z"
+        "fetchedAt": "2026-09-01T08:23:57.925Z"
       },
       "anna-kangas": {
         "success": true,
         "packages": [
           {
-            "title": "Annan Lounasbuffet",
+            "title": "Annan Lounasbuffet (Jamix mt=56)",
             "price": "3,10 € / 13,60 €",
             "meals": [
               {
@@ -16684,7 +16710,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:39.075Z"
+        "fetchedAt": "2026-09-01T08:24:13.884Z"
       },
       "uno": {
         "success": true,
@@ -16965,7 +16991,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:39.389Z"
+        "fetchedAt": "2026-09-01T08:24:14.015Z"
       },
       "rentukka": {
         "success": true,
@@ -17147,40 +17173,117 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:39.686Z"
+        "fetchedAt": "2026-09-01T08:24:14.148Z"
       },
       "jamk-twist": {
         "success": true,
         "packages": [
           {
-            "id": "juvenes-pkg-0",
-            "title": "STREET FOOD",
+            "title": "Lounasbuffet: Maukas kotiruoka",
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Tonnikalapastapaistos",
+                "name": "Kermaista lohikeittoa ja saaristolaisleipää",
                 "diets": [
                   "L",
-                  "Mu",
+                  "G",
                   "*"
                 ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": true
+                "allergens": [
+                  "Kala",
+                  "Maito"
+                ]
+              },
+              {
+                "name": "Mehevää porsaanleikettä ja talon pippurikastiketta",
+                "diets": [
+                  "L"
+                ],
+                "allergens": [
+                  "Gluteeni"
+                ]
+              },
+              {
+                "name": "Paahdettuja yrttiperunoita",
+                "diets": [
+                  "VEG",
+                  "G"
+                ],
+                "allergens": []
               }
             ],
             "diets": [
               "L",
-              "Mu",
+              "G",
               "*"
             ],
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isLactoseFree": true
+          },
+          {
+            "title": "Kasvislounas: Vegaaninen herkkupata",
+            "price": "3,10 €",
+            "meals": [
+              {
+                "name": "Tomaatti-linssikastiketta ja paahdettua kurpitsaa",
+                "diets": [
+                  "VEG",
+                  "G",
+                  "ILM",
+                  "*"
+                ],
+                "allergens": []
+              },
+              {
+                "name": "Luomu täysjyväriisiä",
+                "diets": [
+                  "VEG",
+                  "G"
+                ],
+                "allergens": []
+              }
+            ],
+            "diets": [
+              "VEG",
+              "G",
+              "ILM",
+              "*"
+            ],
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isLactoseFree": true
+          },
+          {
+            "title": "Kevytlounas / Salaattibaari",
+            "price": "3,10 €",
+            "meals": [
+              {
+                "name": "Raikas fetajuusto-kvinoasalaatti & talon vinaigrette",
+                "diets": [
+                  "L",
+                  "G",
+                  "ILM"
+                ],
+                "allergens": [
+                  "Maito"
+                ]
+              }
+            ],
+            "diets": [
+              "L",
+              "G",
+              "ILM"
+            ],
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:20:56.773Z"
+        "fetchedAt": "2026-09-01T08:24:31.661Z"
       },
       "jamk-curve": {
         "success": true,
@@ -17247,7 +17350,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:21:14.289Z"
+        "fetchedAt": "2026-09-01T08:24:49.172Z"
       },
       "jamk-cube": {
         "success": true,
@@ -17325,12 +17428,12 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-09-01T08:21:31.813Z"
+        "fetchedAt": "2026-09-01T08:25:06.684Z"
       },
       "fiilu": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-09-01T08:21:33.406Z"
+        "fetchedAt": "2026-09-01T08:25:08.664Z"
       }
     }
   }

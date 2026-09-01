@@ -100,7 +100,7 @@ const JAMK_FALLBACK_MENUS = {
   ],
   anna: [
     {
-      title: 'Annan Lounasbuffet',
+      title: 'Annan Lounasbuffet (Jamix mt=56)',
       price: '3,10 € / 13,60 €',
       meals: [
         { name: 'Mureaa porsaan ulkofileetä ja tummaa rosmariinikastiketta', diets: ['L', 'G', '*'], allergens: ['Selleri'] },
@@ -142,7 +142,11 @@ const JAMK_FALLBACK_MENUS = {
 
 export async function fetchJuvenesMenu(restaurantId, kitchenId, menuTypeId, dateStr) {
   try {
-    const url = `https://fi.jamix.cloud/apps/menuservice/rest/haku/menu/93077/${kitchenId}?lang=fi`;
+    // Explicit targeting for Ravintola Anna: kitchen 65, menu type 56
+    const targetKitchen = (restaurantId.includes('anna') || kitchenId === '65') ? '65' : kitchenId;
+    const targetMenuType = (restaurantId.includes('anna') || kitchenId === '65') ? '56' : menuTypeId;
+
+    const url = `https://fi.jamix.cloud/apps/menuservice/rest/haku/menu/93077/${targetKitchen}?lang=fi`;
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 2500);
 
@@ -150,7 +154,7 @@ export async function fetchJuvenesMenu(restaurantId, kitchenId, menuTypeId, date
       signal: controller.signal,
       headers: {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)',
-        'Referer': 'https://juvenes.fi/'
+        'Referer': `https://fi.jamix.cloud/apps/menu/?anro=93077&k=${targetKitchen}&mt=${targetMenuType}`
       }
     });
     clearTimeout(timeoutId);
@@ -160,8 +164,8 @@ export async function fetchJuvenesMenu(restaurantId, kitchenId, menuTypeId, date
       if (Array.isArray(data) && data.length > 0) {
         const kitchen = data[0];
         const menuTypes = kitchen.menuTypes || [];
-        const menuType = menuTypeId 
-          ? menuTypes.find(m => String(m.menuTypeId) === String(menuTypeId)) || menuTypes[0]
+        const menuType = targetMenuType 
+          ? menuTypes.find(m => String(m.menuTypeId) === String(targetMenuType)) || menuTypes[0]
           : menuTypes[0];
 
         if (menuType && menuType.menus) {

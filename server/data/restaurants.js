@@ -303,8 +303,9 @@ export const RESTAURANTS = [
     address: 'Kympinkatu 3 C, 40320 Jyväskylä',
     operator: 'Juvenes',
     provider: 'juvenes',
+    jamixCustomer: '93077',
     jamixKitchen: '65',
-    jamixMenuType: '98',
+    jamixMenuType: '56',
     openHours: {
       mon_fri: '07:30 - 14:30',
       sat_sun: 'Suljettu',
@@ -314,7 +315,7 @@ export const RESTAURANTS = [
     studentPrice: '3,10 €',
     staffPrice: '11,00 €',
     guestPrice: '13,60 €',
-    website: 'https://www.juvenes.fi/anna/',
+    website: 'https://fi.jamix.cloud/apps/menu/?anro=93077&k=65&mt=56',
     mapsUrl: 'https://maps.google.com/?q=Ravintola+Anna+Kympinkatu+3+C+Jyväskylä',
     description: 'Kankaan upeassa ja rouheassa miljöössä toimiva monipuolinen lounasravintola ja lounasbuffet.',
     highlights: ['Kankaan Arkki', 'Monipuolinen lounasbuffet', 'Tuore leipä & salaattipöytä']
@@ -380,6 +381,7 @@ export const RESTAURANTS = [
     address: 'Rajakatu 35, 40200 Jyväskylä',
     operator: 'Juvenes',
     provider: 'juvenes',
+    jamixCustomer: '93077',
     jamixKitchen: '60',
     jamixMenuType: '102',
     openHours: {
@@ -405,6 +407,7 @@ export const RESTAURANTS = [
     address: 'Rajakatu 35, 40200 Jyväskylä',
     operator: 'Juvenes',
     provider: 'juvenes',
+    jamixCustomer: '93077',
     jamixKitchen: '60',
     jamixMenuType: '100',
     openHours: {
@@ -430,6 +433,7 @@ export const RESTAURANTS = [
     address: 'Piippukatu 2, 40100 Jyväskylä',
     operator: 'Juvenes',
     provider: 'juvenes',
+    jamixCustomer: '93077',
     jamixKitchen: '61',
     jamixMenuType: '100',
     openHours: {
