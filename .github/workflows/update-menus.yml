@@ -29,6 +29,8 @@ jobs:
         run: npm run scrape
 
       - name: 🚀 Commit and push updated menus
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -37,5 +39,5 @@ jobs:
             echo "Ei uusia muutoksia ruokalistoissa."
           else
             git commit -m "chore(data): päivitetty lounaslistat automaattisesti [$(date +'%Y-%m-%d %H:%M')]"
-            git push
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
           fi
