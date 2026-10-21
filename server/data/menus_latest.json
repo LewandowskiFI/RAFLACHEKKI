@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T09:50:18.731Z",
+  "updatedAt": "2026-10-21T09:52:23.725Z",
   "dates": [
     "2026-10-19",
     "2026-10-20",
@@ -679,12 +679,12 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:19.217Z"
+        "fetchedAt": "2026-10-21T09:52:24.258Z"
       },
       "ilokivi": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:21.995Z"
+        "fetchedAt": "2026-10-21T09:52:26.957Z"
       },
       "taide-tiede": {
         "success": true,
@@ -1014,7 +1014,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:29.796Z"
+        "fetchedAt": "2026-10-21T09:52:33.541Z"
       },
       "syke": {
         "success": true,
@@ -1219,7 +1219,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:31.993Z"
+        "fetchedAt": "2026-10-21T09:52:35.167Z"
       },
       "belvedere": {
         "success": true,
@@ -1277,7 +1277,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:32.756Z"
+        "fetchedAt": "2026-10-21T09:52:35.931Z"
       },
       "tilia": {
         "success": true,
@@ -1371,7 +1371,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:33.505Z"
+        "fetchedAt": "2026-10-21T09:52:36.623Z"
       },
       "normaalikoulu": {
         "success": true,
@@ -1533,7 +1533,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:34.216Z"
+        "fetchedAt": "2026-10-21T09:52:37.418Z"
       },
       "piato": {
         "success": true,
@@ -1698,7 +1698,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:34.918Z"
+        "fetchedAt": "2026-10-21T09:52:38.167Z"
       },
       "bistro-mattilanniemi": {
         "success": true,
@@ -1901,7 +1901,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:35.381Z"
+        "fetchedAt": "2026-10-21T09:52:38.997Z"
       },
       "ylisto": {
         "success": true,
@@ -2010,7 +2010,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:37.436Z"
+        "fetchedAt": "2026-10-21T09:52:40.706Z"
       },
       "kvarkki": {
         "success": true,
@@ -2068,7 +2068,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:38.547Z"
+        "fetchedAt": "2026-10-21T09:52:41.784Z"
       },
       "salvia": {
         "success": true,
@@ -2192,7 +2192,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:39.260Z"
+        "fetchedAt": "2026-10-21T09:52:42.400Z"
       },
       "anna-kangas": {
         "success": true,
@@ -2203,19 +2203,20 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Tomaattista uunikalaa juureksilla",
+                "name": "Mureaa kananpoikaa curry-kookoskastikkeessa",
                 "diets": [
                   "G",
-                  "L",
+                  "M",
                   "Mu",
-                  "*"
+                  "*",
+                  "SIS.LUOMUA"
                 ],
                 "allergens": [],
                 "isClimate": false,
                 "isHeart": true
               },
               {
-                "name": "Sitruunaiset yrttiperunat",
+                "name": "Täysjyväriisiä",
                 "diets": [
                   "G",
                   "M",
@@ -2230,10 +2231,10 @@
             ],
             "diets": [
               "G",
-              "L",
+              "M",
               "Mu",
               "*",
-              "M",
+              "SIS.LUOMUA",
               "VEG"
             ],
             "isVegetarian": true,
@@ -2247,12 +2248,39 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Linssi-kasviscurrya",
+                "name": "TexMex jauhismuru-kasvispelti",
                 "diets": [
                   "G",
-                  "M",
                   "Mu",
                   "VEG",
+                  "*"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": true
+              }
+            ],
+            "diets": [
+              "G",
+              "Mu",
+              "VEG",
+              "*"
+            ],
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isLactoseFree": false
+          },
+          {
+            "id": "juvenes-pkg-2",
+            "title": "MY SOUP",
+            "price": "3,10 €",
+            "meals": [
+              {
+                "name": "Tomaatti-vuohenjuustokeittoa",
+                "diets": [
+                  "G",
+                  "Mu",
                   "SIS.LUOMUA"
                 ],
                 "allergens": [],
@@ -2260,9 +2288,12 @@
                 "isHeart": false
               },
               {
-                "name": "Yrttikaura",
+                "name": "Marinoituja kikherneitä",
                 "diets": [
                   "G",
+                  "L",
+                  "M",
+                  "Mu",
                   "VEG"
                 ],
                 "allergens": [],
@@ -2272,61 +2303,19 @@
             ],
             "diets": [
               "G",
-              "M",
               "Mu",
-              "VEG",
-              "SIS.LUOMUA"
+              "SIS.LUOMUA",
+              "L",
+              "M",
+              "VEG"
             ],
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isLactoseFree": true
-          },
-          {
-            "id": "juvenes-pkg-2",
-            "title": "MY SOUP",
-            "price": "3,10 €",
-            "meals": [
-              {
-                "name": "Peruna-palsternakkasosekeittoa",
-                "diets": [
-                  "G",
-                  "L",
-                  "Mu",
-                  "*",
-                  "SIS.LUOMUA"
-                ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": true
-              },
-              {
-                "name": "Vuolu kanafilee",
-                "diets": [
-                  "G",
-                  "L",
-                  "M"
-                ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": false
-              }
-            ],
-            "diets": [
-              "G",
-              "L",
-              "Mu",
-              "*",
-              "SIS.LUOMUA",
-              "M"
-            ],
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:42.293Z"
+        "fetchedAt": "2026-10-21T09:52:44.794Z"
       },
       "uno": {
         "success": true,
@@ -2475,7 +2464,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:48.408Z"
+        "fetchedAt": "2026-10-21T09:52:49.995Z"
       },
       "rentukka": {
         "success": true,
@@ -2676,7 +2665,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:49.072Z"
+        "fetchedAt": "2026-10-21T09:52:50.701Z"
       },
       "jamk-twist": {
         "success": true,
@@ -2706,23 +2695,9 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Linssi-kasviscurrya",
+                "name": "TexMex jauhismuru-kasvispelti",
                 "diets": [
                   "G",
-                  "M",
-                  "Mu",
-                  "VEG",
-                  "SIS.LUOMUA"
-                ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": false
-              },
-              {
-                "name": "Täysjyväriisiä",
-                "diets": [
-                  "G",
-                  "M",
                   "Mu",
                   "VEG",
                   "*"
@@ -2730,6 +2705,18 @@
                 "allergens": [],
                 "isClimate": false,
                 "isHeart": true
+              },
+              {
+                "name": "Tahini-soijajogurtti",
+                "diets": [
+                  "G",
+                  "M",
+                  "Mu",
+                  "VEG"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
               },
               {
                 "name": "Lämmin kasvislisäke",
@@ -2744,11 +2731,10 @@
             ],
             "diets": [
               "G",
-              "M",
               "Mu",
               "VEG",
-              "SIS.LUOMUA",
-              "*"
+              "*",
+              "M"
             ],
             "isVegetarian": true,
             "isVegan": true,
@@ -2761,40 +2747,40 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Sitruunamarinoitua broileria",
+                "name": "Jauhelihapihvejä",
+                "diets": [
+                  "L",
+                  "M",
+                  "Mu",
+                  "*"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": true
+              },
+              {
+                "name": "Metsäsienikastiketta",
                 "diets": [
                   "G",
-                  "M",
-                  "Mu"
+                  "L",
+                  "Mu",
+                  "SIS.LUOMUA"
                 ],
                 "allergens": [],
                 "isClimate": false,
                 "isHeart": false
               },
               {
-                "name": "Rakuuna-kermaviilikastiketta",
-                "diets": [
-                  "G",
-                  "L",
-                  "Mu",
-                  "*"
-                ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": true
-              },
-              {
-                "name": "Täysjyväriisiä",
+                "name": "Sitruunaiset yrttiperunat",
                 "diets": [
                   "G",
                   "M",
                   "Mu",
-                  "VEG",
-                  "*"
+                  "VEG"
                 ],
                 "allergens": [],
                 "isClimate": false,
-                "isHeart": true
+                "isHeart": false
               },
               {
                 "name": "Lämmin kasvislisäke",
@@ -2808,11 +2794,12 @@
               }
             ],
             "diets": [
-              "G",
+              "L",
               "M",
               "Mu",
-              "L",
               "*",
+              "G",
+              "SIS.LUOMUA",
               "VEG"
             ],
             "isVegetarian": true,
@@ -2826,11 +2813,14 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Kirjolohi-pastapaistosta",
+                "name": "Possua Sweet & Sour",
                 "diets": [
+                  "G",
                   "L",
+                  "M",
                   "Mu",
-                  "*"
+                  "*",
+                  "SIS.LUOMUA"
                 ],
                 "allergens": [],
                 "isClimate": false,
@@ -2848,10 +2838,12 @@
               }
             ],
             "diets": [
+              "G",
               "L",
+              "M",
               "Mu",
               "*",
-              "G",
+              "SIS.LUOMUA",
               "VEG"
             ],
             "isVegetarian": true,
@@ -2865,10 +2857,11 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Bataattikeittoa",
+                "name": "Tomaatti-tuorejuustokeittoa",
                 "diets": [
                   "G",
-                  "VEG",
+                  "L",
+                  "Mu",
                   "*",
                   "SIS.LUOMUA"
                 ],
@@ -2886,14 +2879,15 @@
             ],
             "diets": [
               "G",
-              "VEG",
+              "L",
+              "Mu",
               "*",
               "SIS.LUOMUA"
             ],
-            "isVegetarian": true,
-            "isVegan": true,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
-            "isLactoseFree": false
+            "isLactoseFree": true
           },
           {
             "id": "juvenes-pkg-5",
@@ -2921,7 +2915,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:50.146Z"
+        "fetchedAt": "2026-10-21T09:52:51.371Z"
       },
       "jamk-curve": {
         "success": true,
@@ -2951,23 +2945,9 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Linssi-kasviscurrya",
+                "name": "TexMex jauhismuru-kasvispelti",
                 "diets": [
                   "G",
-                  "M",
-                  "Mu",
-                  "VEG",
-                  "SIS.LUOMUA"
-                ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": false
-              },
-              {
-                "name": "Täysjyväriisiä",
-                "diets": [
-                  "G",
-                  "M",
                   "Mu",
                   "VEG",
                   "*"
@@ -2975,6 +2955,18 @@
                 "allergens": [],
                 "isClimate": false,
                 "isHeart": true
+              },
+              {
+                "name": "Tahini-soijajogurtti",
+                "diets": [
+                  "G",
+                  "M",
+                  "Mu",
+                  "VEG"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
               },
               {
                 "name": "Lämmin kasvislisäke",
@@ -2989,11 +2981,10 @@
             ],
             "diets": [
               "G",
-              "M",
               "Mu",
               "VEG",
-              "SIS.LUOMUA",
-              "*"
+              "*",
+              "M"
             ],
             "isVegetarian": true,
             "isVegan": true,
@@ -3006,40 +2997,40 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Sitruunamarinoitua broileria",
+                "name": "Jauhelihapihvejä",
+                "diets": [
+                  "L",
+                  "M",
+                  "Mu",
+                  "*"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": true
+              },
+              {
+                "name": "Metsäsienikastiketta",
                 "diets": [
                   "G",
-                  "M",
-                  "Mu"
+                  "L",
+                  "Mu",
+                  "SIS.LUOMUA"
                 ],
                 "allergens": [],
                 "isClimate": false,
                 "isHeart": false
               },
               {
-                "name": "Rakuuna-kermaviilikastiketta",
-                "diets": [
-                  "G",
-                  "L",
-                  "Mu",
-                  "*"
-                ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": true
-              },
-              {
-                "name": "Täysjyväriisiä",
+                "name": "Sitruunaiset yrttiperunat",
                 "diets": [
                   "G",
                   "M",
                   "Mu",
-                  "VEG",
-                  "*"
+                  "VEG"
                 ],
                 "allergens": [],
                 "isClimate": false,
-                "isHeart": true
+                "isHeart": false
               },
               {
                 "name": "Lämmin kasvislisäke",
@@ -3053,11 +3044,12 @@
               }
             ],
             "diets": [
-              "G",
+              "L",
               "M",
               "Mu",
-              "L",
               "*",
+              "G",
+              "SIS.LUOMUA",
               "VEG"
             ],
             "isVegetarian": true,
@@ -3071,11 +3063,14 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Kirjolohi-pastapaistosta",
+                "name": "Possua Sweet & Sour",
                 "diets": [
+                  "G",
                   "L",
+                  "M",
                   "Mu",
-                  "*"
+                  "*",
+                  "SIS.LUOMUA"
                 ],
                 "allergens": [],
                 "isClimate": false,
@@ -3093,10 +3088,12 @@
               }
             ],
             "diets": [
+              "G",
               "L",
+              "M",
               "Mu",
               "*",
-              "G",
+              "SIS.LUOMUA",
               "VEG"
             ],
             "isVegetarian": true,
@@ -3110,10 +3107,11 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Bataattikeittoa",
+                "name": "Tomaatti-tuorejuustokeittoa",
                 "diets": [
                   "G",
-                  "VEG",
+                  "L",
+                  "Mu",
                   "*",
                   "SIS.LUOMUA"
                 ],
@@ -3124,17 +3122,18 @@
             ],
             "diets": [
               "G",
-              "VEG",
+              "L",
+              "Mu",
               "*",
               "SIS.LUOMUA"
             ],
-            "isVegetarian": true,
-            "isVegan": true,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
-            "isLactoseFree": false
+            "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:56.307Z"
+        "fetchedAt": "2026-10-21T09:52:55.927Z"
       },
       "jamk-cube": {
         "success": true,
@@ -3144,6 +3143,19 @@
             "title": "AAMIAINEN",
             "price": "3,10 €",
             "meals": [
+              {
+                "name": "Luomu ruishiutalepuuroa",
+                "diets": [
+                  "M",
+                  "Mu",
+                  "VEG",
+                  "*",
+                  "SIS.LUOMUA"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": true
+              },
               {
                 "name": "Aamiaisen leipävalikoima",
                 "diets": [],
@@ -3157,16 +3169,58 @@
                 "allergens": [],
                 "isClimate": false,
                 "isHeart": false
+              },
+              {
+                "name": "Kahvi",
+                "diets": [
+                  "G",
+                  "L",
+                  "Mu"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
+              },
+              {
+                "name": "Kananmuna",
+                "diets": [
+                  "G",
+                  "L",
+                  "M"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
+              },
+              {
+                "name": "Appelsiinituoremehu",
+                "diets": [
+                  "G",
+                  "M",
+                  "Mu",
+                  "VEG"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
               }
             ],
-            "diets": [],
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isLactoseFree": false
+            "diets": [
+              "M",
+              "Mu",
+              "VEG",
+              "*",
+              "SIS.LUOMUA",
+              "G",
+              "L"
+            ],
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:51:03.193Z"
+        "fetchedAt": "2026-10-21T09:53:00.381Z"
       },
       "fiilu": {
         "success": true,
@@ -3440,7 +3494,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:51:07.492Z"
+        "fetchedAt": "2026-10-21T09:53:04.237Z"
       }
     },
     "2026-10-20": {
@@ -3449,11 +3503,11 @@
         "packages": [
           {
             "id": "pkg-0",
-            "title": "Mifua Sweet & Sour",
+            "title": "Mifua Sweet & Sour (saatavilla Veg)",
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Mifua Sweet & Sour",
+                "name": "Mifua Sweet & Sour (saatavilla Veg)",
                 "diets": [
                   "*",
                   "A",
@@ -3601,48 +3655,16 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:19.217Z"
+        "fetchedAt": "2026-10-21T09:52:24.258Z"
       },
       "ilokivi": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:23.227Z"
+        "fetchedAt": "2026-10-21T09:52:27.980Z"
       },
       "taide-tiede": {
         "success": true,
         "packages": [
-          {
-            "id": "pkg-0",
-            "title": "Pinaattikeittoa",
-            "price": "Opiskelija 3,10€ / Jatko-opiskelija 6,25€ / Henkilökunta/ Vierailija 6,75€    ",
-            "meals": [
-              {
-                "name": "Pinaattikeittoa",
-                "diets": [
-                  "A",
-                  "ILM",
-                  "L",
-                  "M",
-                  "Veg"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "isClimate": true,
-                "co2": null
-              }
-            ],
-            "diets": [
-              "A",
-              "ILM",
-              "L",
-              "M",
-              "Veg"
-            ],
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isLactoseFree": true
-          },
           {
             "id": "pkg-1",
             "title": "Tummaa riisiä",
@@ -3663,20 +3685,10 @@
                 "co2": null
               },
               {
-                "name": "Tofua, kasviksia ja pähkinää -Tahu goreng Indonesia",
-                "diets": [
-                  "*",
-                  "A",
-                  "ILM",
-                  "L",
-                  "M",
-                  "Veg",
-                  "VS"
-                ],
+                "name": "Tofua, kasviksia ja pähkinää *A,ILM,L,M,Veg,VS",
+                "diets": [],
                 "allergens": [],
                 "recipeUrl": null,
-                "isClimate": true,
-                "isHeart": true,
                 "co2": null
               }
             ],
@@ -3685,10 +3697,7 @@
               "G",
               "L",
               "M",
-              "Veg",
-              "A",
-              "ILM",
-              "VS"
+              "Veg"
             ],
             "isVegetarian": true,
             "isVegan": true,
@@ -3824,27 +3833,13 @@
                 "allergens": [],
                 "recipeUrl": null,
                 "co2": null
-              },
-              {
-                "name": "Suolakinuskia",
-                "diets": [
-                  "A",
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "co2": null
               }
             ],
             "diets": [
               "A",
               "G",
               "L",
-              "Veg",
-              "M"
+              "Veg"
             ],
             "isVegetarian": true,
             "isVegan": true,
@@ -4013,333 +4008,9 @@
             "isVegan": true,
             "isGlutenFree": true,
             "isLactoseFree": true
-          },
-          {
-            "id": "pkg-6",
-            "title": "Pinaattikeittoa",
-            "price": "Opiskelija 5,50€ / Jatko-opiskelija 8,51€ / Henkilökunta / Vierailija 9,70€",
-            "meals": [
-              {
-                "name": "Pinaattikeittoa",
-                "diets": [
-                  "A",
-                  "ILM",
-                  "L",
-                  "M",
-                  "Veg"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "isClimate": true,
-                "co2": null
-              },
-              {
-                "name": "Paahdettuja siemeniä",
-                "diets": [
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "co2": null
-              }
-            ],
-            "diets": [
-              "A",
-              "ILM",
-              "L",
-              "M",
-              "Veg",
-              "G"
-            ],
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isLactoseFree": true
-          },
-          {
-            "id": "pkg-7",
-            "title": "Seitania, paahdettuja perunagnoccheja ja myskikurpitsaa",
-            "price": "3,10 €",
-            "meals": [
-              {
-                "name": "Seitania, paahdettuja perunagnoccheja ja myskikurpitsaa",
-                "diets": [
-                  "*",
-                  "A",
-                  "ILM",
-                  "L",
-                  "M",
-                  "Veg",
-                  "VS"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "isClimate": true,
-                "isHeart": true,
-                "co2": null
-              },
-              {
-                "name": "Gremolataa",
-                "diets": [
-                  "G",
-                  "L",
-                  "M",
-                  "Veg",
-                  "VS"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "co2": null
-              }
-            ],
-            "diets": [
-              "*",
-              "A",
-              "ILM",
-              "L",
-              "M",
-              "Veg",
-              "VS",
-              "G"
-            ],
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isLactoseFree": true
-          },
-          {
-            "id": "pkg-8",
-            "title": "Vegaanista suklaakakkua",
-            "price": "3,10 €",
-            "meals": [
-              {
-                "name": "Vegaanista suklaakakkua",
-                "diets": [
-                  "A",
-                  "G",
-                  "L",
-                  "Veg"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "co2": null
-              },
-              {
-                "name": "Suolakinuskia",
-                "diets": [
-                  "A",
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "co2": null
-              }
-            ],
-            "diets": [
-              "A",
-              "G",
-              "L",
-              "Veg",
-              "M"
-            ],
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isLactoseFree": true
-          },
-          {
-            "id": "pkg-9",
-            "title": "Kauden salaattisekoitusta",
-            "price": "3,10 €",
-            "meals": [
-              {
-                "name": "Kauden salaattisekoitusta",
-                "diets": [
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "co2": null
-              },
-              {
-                "name": "Punakaalisalaattia",
-                "diets": [
-                  "A",
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "co2": null
-              },
-              {
-                "name": "Maccheronipastaa tuoreella tomaattisalsalla",
-                "diets": [
-                  "A",
-                  "L",
-                  "M",
-                  "Veg"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "co2": null
-              },
-              {
-                "name": "Harissamarinoituja mustapapuja",
-                "diets": [
-                  "A",
-                  "ILM",
-                  "L",
-                  "M",
-                  "Veg"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "isClimate": true,
-                "co2": null
-              },
-              {
-                "name": "Kauden kasvis",
-                "diets": [
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "co2": null
-              },
-              {
-                "name": "Kauden hedelmä",
-                "diets": [
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "co2": null
-              },
-              {
-                "name": "Aprikoosi-rusinachutneytä",
-                "diets": [
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "co2": null
-              },
-              {
-                "name": "Pikkelöity kyssäkaali",
-                "diets": [
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "co2": null
-              },
-              {
-                "name": "Valkopapuhummus",
-                "diets": [
-                  "A",
-                  "L",
-                  "M",
-                  "Veg",
-                  "VS"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "co2": null
-              },
-              {
-                "name": "Vinaigrettea",
-                "diets": [
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "co2": null
-              },
-              {
-                "name": "Mango-passionshotti",
-                "diets": [
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "co2": null
-              }
-            ],
-            "diets": [
-              "G",
-              "L",
-              "M",
-              "Veg",
-              "A",
-              "ILM",
-              "VS"
-            ],
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isLactoseFree": true
-          },
-          {
-            "id": "pkg-10",
-            "title": "Paahdettua fenkolia, porkkanaa ja lehtipinaattia",
-            "price": "3,10 €",
-            "meals": [
-              {
-                "name": "Paahdettua fenkolia, porkkanaa ja lehtipinaattia",
-                "diets": [
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
-                ],
-                "allergens": [],
-                "recipeUrl": null,
-                "co2": null
-              }
-            ],
-            "diets": [
-              "G",
-              "L",
-              "M",
-              "Veg"
-            ],
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:30.031Z"
+        "fetchedAt": "2026-10-21T09:52:33.789Z"
       },
       "syke": {
         "success": true,
@@ -4513,7 +4184,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:31.993Z"
+        "fetchedAt": "2026-10-21T09:52:35.167Z"
       },
       "belvedere": {
         "success": true,
@@ -4574,7 +4245,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:32.756Z"
+        "fetchedAt": "2026-10-21T09:52:35.931Z"
       },
       "tilia": {
         "success": true,
@@ -4687,7 +4358,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:33.505Z"
+        "fetchedAt": "2026-10-21T09:52:36.623Z"
       },
       "normaalikoulu": {
         "success": true,
@@ -4804,7 +4475,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:34.216Z"
+        "fetchedAt": "2026-10-21T09:52:37.418Z"
       },
       "piato": {
         "success": true,
@@ -4934,19 +4605,9 @@
           },
           {
             "id": "pkg-5",
-            "title": "Briossi BRG Crispy chicken",
+            "title": "Ranskalaisia perunoita",
             "price": "3,10 €",
             "meals": [
-              {
-                "name": "Briossi BRG Crispy chicken",
-                "diets": [
-                  "A",
-                  "L",
-                  "VS"
-                ],
-                "allergens": [],
-                "isHeart": false
-              },
               {
                 "name": "Ranskalaisia perunoita",
                 "diets": [
@@ -4959,16 +4620,25 @@
                 "allergens": [],
                 "isClimate": true,
                 "isHeart": false
+              },
+              {
+                "name": "Chicken & Chips",
+                "diets": [
+                  "A",
+                  "L",
+                  "M"
+                ],
+                "allergens": [],
+                "isHeart": false
               }
             ],
             "diets": [
-              "A",
-              "L",
-              "VS",
               "G",
               "ILM",
+              "L",
               "M",
-              "Veg"
+              "Veg",
+              "A"
             ],
             "isVegetarian": true,
             "isVegan": true,
@@ -4976,7 +4646,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:34.918Z"
+        "fetchedAt": "2026-10-21T09:52:38.167Z"
       },
       "bistro-mattilanniemi": {
         "success": true,
@@ -5232,7 +4902,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:35.590Z"
+        "fetchedAt": "2026-10-21T09:52:39.245Z"
       },
       "ylisto": {
         "success": true,
@@ -5358,7 +5028,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:37.436Z"
+        "fetchedAt": "2026-10-21T09:52:40.706Z"
       },
       "kvarkki": {
         "success": true,
@@ -5420,7 +5090,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:38.547Z"
+        "fetchedAt": "2026-10-21T09:52:41.784Z"
       },
       "salvia": {
         "success": true,
@@ -5531,7 +5201,7 @@
             "isLactoseFree": false
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:39.854Z"
+        "fetchedAt": "2026-10-21T09:52:42.611Z"
       },
       "anna-kangas": {
         "success": true,
@@ -5654,7 +5324,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:43.269Z"
+        "fetchedAt": "2026-10-21T09:52:45.543Z"
       },
       "uno": {
         "success": true,
@@ -5756,7 +5426,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:48.408Z"
+        "fetchedAt": "2026-10-21T09:52:49.995Z"
       },
       "rentukka": {
         "success": true,
@@ -5975,7 +5645,7 @@
             "isLactoseFree": false
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:49.072Z"
+        "fetchedAt": "2026-10-21T09:52:50.701Z"
       },
       "jamk-twist": {
         "success": true,
@@ -6225,7 +5895,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:51.046Z"
+        "fetchedAt": "2026-10-21T09:52:52.011Z"
       },
       "jamk-curve": {
         "success": true,
@@ -6443,7 +6113,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:57.396Z"
+        "fetchedAt": "2026-10-21T09:52:56.576Z"
       },
       "jamk-cube": {
         "success": true,
@@ -6530,7 +6200,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:51:03.903Z"
+        "fetchedAt": "2026-10-21T09:53:00.970Z"
       },
       "fiilu": {
         "success": true,
@@ -6779,7 +6449,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:51:07.694Z"
+        "fetchedAt": "2026-10-21T09:53:04.453Z"
       }
     },
     "2026-10-21": {
@@ -6788,6 +6458,24 @@
         "packages": [
           {
             "id": "pkg-0",
+            "title": "Vegaanista fetapannupizzaa, pinaattia ja cashewpähkinää (Veg)",
+            "price": "3,10 €",
+            "meals": [
+              {
+                "name": "Vegaanista fetapannupizzaa, pinaattia ja cashewpähkinää (Veg)",
+                "diets": [],
+                "allergens": [],
+                "isHeart": false
+              }
+            ],
+            "diets": [],
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isLactoseFree": false
+          },
+          {
+            "id": "pkg-1",
             "title": "Fetapannupizzaa, pinaattia & cashewpähkinää",
             "price": "3,10 €",
             "meals": [
@@ -6811,7 +6499,7 @@
             "isLactoseFree": true
           },
           {
-            "id": "pkg-1",
+            "id": "pkg-2",
             "title": "Täyteläisen maustettua broileria - Broileria Tikka Masala",
             "price": "3,10 €",
             "meals": [
@@ -6841,12 +6529,12 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:19.217Z"
+        "fetchedAt": "2026-10-21T09:52:24.258Z"
       },
       "ilokivi": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:24.463Z"
+        "fetchedAt": "2026-10-21T09:52:29.072Z"
       },
       "taide-tiede": {
         "success": true,
@@ -7441,7 +7129,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:30.317Z"
+        "fetchedAt": "2026-10-21T09:52:33.958Z"
       },
       "syke": {
         "success": true,
@@ -7644,7 +7332,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:31.993Z"
+        "fetchedAt": "2026-10-21T09:52:35.167Z"
       },
       "belvedere": {
         "success": true,
@@ -7718,7 +7406,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:32.756Z"
+        "fetchedAt": "2026-10-21T09:52:35.931Z"
       },
       "tilia": {
         "success": true,
@@ -7787,7 +7475,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:33.505Z"
+        "fetchedAt": "2026-10-21T09:52:36.623Z"
       },
       "normaalikoulu": {
         "success": true,
@@ -7862,18 +7550,28 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:34.216Z"
+        "fetchedAt": "2026-10-21T09:52:37.418Z"
       },
       "piato": {
         "success": true,
         "packages": [
           {
             "id": "pkg-0",
-            "title": "Päivän patonki - kasvis- ja lihaversiot - Limited edition",
+            "title": "Tonnikalatäytteinen patonki - Limited edition",
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Päivän patonki - kasvis- ja lihaversiot - Limited edition",
+                "name": "Tonnikalatäytteinen patonki - Limited edition",
+                "diets": [
+                  "A",
+                  "L",
+                  "M"
+                ],
+                "allergens": [],
+                "isHeart": false
+              },
+              {
+                "name": "Tomaatti-mozzarellapatonki - Limited edition",
                 "diets": [
                   "A",
                   "L"
@@ -7884,7 +7582,8 @@
             ],
             "diets": [
               "A",
-              "L"
+              "L",
+              "M"
             ],
             "isVegetarian": false,
             "isVegan": false,
@@ -8053,7 +7752,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:34.918Z"
+        "fetchedAt": "2026-10-21T09:52:38.167Z"
       },
       "bistro-mattilanniemi": {
         "success": true,
@@ -8259,18 +7958,18 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:35.848Z"
+        "fetchedAt": "2026-10-21T09:52:39.397Z"
       },
       "ylisto": {
         "success": true,
         "packages": [
           {
             "id": "pkg-0",
-            "title": "Mifua Sweet & Sour",
+            "title": "Mifua Sweet & Sour (Vegaaninen vaihtoehto: Italialaisia kasvispyöryköitä)",
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Mifua Sweet & Sour",
+                "name": "Mifua Sweet & Sour (Vegaaninen vaihtoehto: Italialaisia kasvispyöryköitä)",
                 "diets": [
                   "*",
                   "A",
@@ -8281,6 +7980,12 @@
                 "allergens": [],
                 "isClimate": true,
                 "isHeart": true
+              },
+              {
+                "name": "Vegaaninen vaihtoehto: Italialaisia kasvispyöryköitä",
+                "diets": [],
+                "allergens": [],
+                "isHeart": false
               }
             ],
             "diets": [
@@ -8311,11 +8016,11 @@
                 "isHeart": false
               },
               {
-                "name": "Pestorossojogurttia",
+                "name": "Sweet chili jogurttia",
                 "diets": [
                   "A",
                   "G",
-                  "VL",
+                  "L",
                   "VS"
                 ],
                 "allergens": [],
@@ -8326,8 +8031,7 @@
               "A",
               "L",
               "VS",
-              "G",
-              "VL"
+              "G"
             ],
             "isVegetarian": false,
             "isVegan": false,
@@ -8348,6 +8052,12 @@
                 ],
                 "allergens": [],
                 "isHeart": true
+              },
+              {
+                "name": "Gluteeniton vaihtoehto: Jauhelihalasagnettea",
+                "diets": [],
+                "allergens": [],
+                "isHeart": false
               }
             ],
             "diets": [
@@ -8361,7 +8071,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:37.436Z"
+        "fetchedAt": "2026-10-21T09:52:40.706Z"
       },
       "kvarkki": {
         "success": true,
@@ -8406,7 +8116,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:38.547Z"
+        "fetchedAt": "2026-10-21T09:52:41.784Z"
       },
       "salvia": {
         "success": true,
@@ -8503,7 +8213,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:40.096Z"
+        "fetchedAt": "2026-10-21T09:52:42.776Z"
       },
       "anna-kangas": {
         "success": true,
@@ -8651,7 +8361,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:44.169Z"
+        "fetchedAt": "2026-10-21T09:52:46.399Z"
       },
       "uno": {
         "success": true,
@@ -8751,7 +8461,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:48.408Z"
+        "fetchedAt": "2026-10-21T09:52:49.995Z"
       },
       "rentukka": {
         "success": true,
@@ -8967,7 +8677,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:49.072Z"
+        "fetchedAt": "2026-10-21T09:52:50.701Z"
       },
       "jamk-twist": {
         "success": true,
@@ -9213,7 +8923,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:51.932Z"
+        "fetchedAt": "2026-10-21T09:52:52.645Z"
       },
       "jamk-curve": {
         "success": true,
@@ -9429,7 +9139,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:58.313Z"
+        "fetchedAt": "2026-10-21T09:52:57.248Z"
       },
       "jamk-cube": {
         "success": true,
@@ -9517,7 +9227,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:51:04.489Z"
+        "fetchedAt": "2026-10-21T09:53:01.557Z"
       },
       "fiilu": {
         "success": true,
@@ -9791,7 +9501,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:51:07.948Z"
+        "fetchedAt": "2026-10-21T09:53:04.610Z"
       }
     },
     "2026-10-22": {
@@ -9913,12 +9623,12 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:19.217Z"
+        "fetchedAt": "2026-10-21T09:52:24.258Z"
       },
       "ilokivi": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:25.690Z"
+        "fetchedAt": "2026-10-21T09:52:30.064Z"
       },
       "taide-tiede": {
         "success": true,
@@ -10593,7 +10303,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:30.580Z"
+        "fetchedAt": "2026-10-21T09:52:34.225Z"
       },
       "syke": {
         "success": true,
@@ -10739,7 +10449,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:31.993Z"
+        "fetchedAt": "2026-10-21T09:52:35.167Z"
       },
       "belvedere": {
         "success": true,
@@ -10797,7 +10507,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:32.756Z"
+        "fetchedAt": "2026-10-21T09:52:35.931Z"
       },
       "tilia": {
         "success": true,
@@ -10911,7 +10621,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:33.505Z"
+        "fetchedAt": "2026-10-21T09:52:36.623Z"
       },
       "normaalikoulu": {
         "success": true,
@@ -10998,7 +10708,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:34.216Z"
+        "fetchedAt": "2026-10-21T09:52:37.418Z"
       },
       "piato": {
         "success": true,
@@ -11214,7 +10924,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:34.918Z"
+        "fetchedAt": "2026-10-21T09:52:38.167Z"
       },
       "bistro-mattilanniemi": {
         "success": true,
@@ -11447,7 +11157,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:36.082Z"
+        "fetchedAt": "2026-10-21T09:52:39.630Z"
       },
       "ylisto": {
         "success": true,
@@ -11586,7 +11296,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:37.436Z"
+        "fetchedAt": "2026-10-21T09:52:40.706Z"
       },
       "kvarkki": {
         "success": true,
@@ -11629,7 +11339,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:38.547Z"
+        "fetchedAt": "2026-10-21T09:52:41.784Z"
       },
       "salvia": {
         "success": true,
@@ -11730,7 +11440,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:40.401Z"
+        "fetchedAt": "2026-10-21T09:52:43.007Z"
       },
       "anna-kangas": {
         "success": true,
@@ -11859,7 +11569,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:45.077Z"
+        "fetchedAt": "2026-10-21T09:52:47.240Z"
       },
       "uno": {
         "success": true,
@@ -12011,7 +11721,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:48.408Z"
+        "fetchedAt": "2026-10-21T09:52:49.995Z"
       },
       "rentukka": {
         "success": true,
@@ -12210,7 +11920,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:49.072Z"
+        "fetchedAt": "2026-10-21T09:52:50.701Z"
       },
       "jamk-twist": {
         "success": true,
@@ -12460,7 +12170,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:52.822Z"
+        "fetchedAt": "2026-10-21T09:52:53.345Z"
       },
       "jamk-curve": {
         "success": true,
@@ -12680,7 +12390,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:59.407Z"
+        "fetchedAt": "2026-10-21T09:52:57.887Z"
       },
       "jamk-cube": {
         "success": true,
@@ -12767,7 +12477,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:51:05.219Z"
+        "fetchedAt": "2026-10-21T09:53:02.047Z"
       },
       "fiilu": {
         "success": true,
@@ -12985,7 +12695,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:51:08.209Z"
+        "fetchedAt": "2026-10-21T09:53:04.833Z"
       }
     },
     "2026-10-23": {
@@ -13063,12 +12773,12 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:19.217Z"
+        "fetchedAt": "2026-10-21T09:52:24.258Z"
       },
       "ilokivi": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:26.920Z"
+        "fetchedAt": "2026-10-21T09:52:31.058Z"
       },
       "taide-tiede": {
         "success": true,
@@ -13649,7 +13359,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:30.829Z"
+        "fetchedAt": "2026-10-21T09:52:34.477Z"
       },
       "syke": {
         "success": true,
@@ -13808,7 +13518,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:31.993Z"
+        "fetchedAt": "2026-10-21T09:52:35.167Z"
       },
       "belvedere": {
         "success": true,
@@ -13873,7 +13583,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:32.756Z"
+        "fetchedAt": "2026-10-21T09:52:35.931Z"
       },
       "tilia": {
         "success": true,
@@ -13944,7 +13654,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:33.505Z"
+        "fetchedAt": "2026-10-21T09:52:36.623Z"
       },
       "normaalikoulu": {
         "success": true,
@@ -14003,7 +13713,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:34.216Z"
+        "fetchedAt": "2026-10-21T09:52:37.418Z"
       },
       "piato": {
         "success": true,
@@ -14153,7 +13863,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:34.918Z"
+        "fetchedAt": "2026-10-21T09:52:38.167Z"
       },
       "bistro-mattilanniemi": {
         "success": true,
@@ -14319,7 +14029,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:36.317Z"
+        "fetchedAt": "2026-10-21T09:52:39.996Z"
       },
       "ylisto": {
         "success": true,
@@ -14468,7 +14178,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:37.436Z"
+        "fetchedAt": "2026-10-21T09:52:40.706Z"
       },
       "kvarkki": {
         "success": true,
@@ -14498,7 +14208,7 @@
             "isLactoseFree": false
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:38.547Z"
+        "fetchedAt": "2026-10-21T09:52:41.784Z"
       },
       "salvia": {
         "success": true,
@@ -14609,7 +14319,7 @@
             "isLactoseFree": false
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:40.649Z"
+        "fetchedAt": "2026-10-21T09:52:43.233Z"
       },
       "anna-kangas": {
         "success": true,
@@ -14694,7 +14404,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:45.985Z"
+        "fetchedAt": "2026-10-21T09:52:48.088Z"
       },
       "uno": {
         "success": true,
@@ -14817,7 +14527,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:48.408Z"
+        "fetchedAt": "2026-10-21T09:52:49.995Z"
       },
       "rentukka": {
         "success": true,
@@ -14965,7 +14675,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:49.072Z"
+        "fetchedAt": "2026-10-21T09:52:50.701Z"
       },
       "jamk-twist": {
         "success": true,
@@ -15212,7 +14922,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:53.588Z"
+        "fetchedAt": "2026-10-21T09:52:53.990Z"
       },
       "jamk-curve": {
         "success": true,
@@ -15416,7 +15126,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:51:00.336Z"
+        "fetchedAt": "2026-10-21T09:52:58.503Z"
       },
       "jamk-cube": {
         "success": true,
@@ -15499,7 +15209,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:51:05.925Z"
+        "fetchedAt": "2026-10-21T09:53:02.737Z"
       },
       "fiilu": {
         "success": true,
@@ -15690,19 +15400,19 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:51:08.458Z"
+        "fetchedAt": "2026-10-21T09:53:05.047Z"
       }
     },
     "2026-10-24": {
       "lozzi": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:19.431Z"
+        "fetchedAt": "2026-10-21T09:52:24.420Z"
       },
       "ilokivi": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:28.218Z"
+        "fetchedAt": "2026-10-21T09:52:32.043Z"
       },
       "taide-tiede": {
         "success": true,
@@ -15883,27 +15593,27 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:31.450Z"
+        "fetchedAt": "2026-10-21T09:52:34.714Z"
       },
       "syke": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:32.231Z"
+        "fetchedAt": "2026-10-21T09:52:35.391Z"
       },
       "belvedere": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:32.984Z"
+        "fetchedAt": "2026-10-21T09:52:36.163Z"
       },
       "tilia": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:33.733Z"
+        "fetchedAt": "2026-10-21T09:52:36.843Z"
       },
       "normaalikoulu": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:34.480Z"
+        "fetchedAt": "2026-10-21T09:52:37.596Z"
       },
       "piato": {
         "success": true,
@@ -16028,27 +15738,27 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:34.918Z"
+        "fetchedAt": "2026-10-21T09:52:38.167Z"
       },
       "bistro-mattilanniemi": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:36.548Z"
+        "fetchedAt": "2026-10-21T09:52:40.192Z"
       },
       "ylisto": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:38.074Z"
+        "fetchedAt": "2026-10-21T09:52:40.907Z"
       },
       "kvarkki": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:38.780Z"
+        "fetchedAt": "2026-10-21T09:52:41.980Z"
       },
       "salvia": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:40.921Z"
+        "fetchedAt": "2026-10-21T09:52:43.426Z"
       },
       "anna-kangas": {
         "success": true,
@@ -16059,19 +15769,20 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Tomaattista uunikalaa juureksilla",
+                "name": "Mureaa kananpoikaa curry-kookoskastikkeessa",
                 "diets": [
                   "G",
-                  "L",
+                  "M",
                   "Mu",
-                  "*"
+                  "*",
+                  "SIS.LUOMUA"
                 ],
                 "allergens": [],
                 "isClimate": false,
                 "isHeart": true
               },
               {
-                "name": "Sitruunaiset yrttiperunat",
+                "name": "Täysjyväriisiä",
                 "diets": [
                   "G",
                   "M",
@@ -16086,10 +15797,10 @@
             ],
             "diets": [
               "G",
-              "L",
+              "M",
               "Mu",
               "*",
-              "M",
+              "SIS.LUOMUA",
               "VEG"
             ],
             "isVegetarian": true,
@@ -16103,12 +15814,39 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Linssi-kasviscurrya",
+                "name": "TexMex jauhismuru-kasvispelti",
                 "diets": [
                   "G",
-                  "M",
                   "Mu",
                   "VEG",
+                  "*"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": true
+              }
+            ],
+            "diets": [
+              "G",
+              "Mu",
+              "VEG",
+              "*"
+            ],
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isLactoseFree": false
+          },
+          {
+            "id": "juvenes-pkg-2",
+            "title": "MY SOUP",
+            "price": "3,10 €",
+            "meals": [
+              {
+                "name": "Tomaatti-vuohenjuustokeittoa",
+                "diets": [
+                  "G",
+                  "Mu",
                   "SIS.LUOMUA"
                 ],
                 "allergens": [],
@@ -16116,9 +15854,12 @@
                 "isHeart": false
               },
               {
-                "name": "Yrttikaura",
+                "name": "Marinoituja kikherneitä",
                 "diets": [
                   "G",
+                  "L",
+                  "M",
+                  "Mu",
                   "VEG"
                 ],
                 "allergens": [],
@@ -16128,66 +15869,24 @@
             ],
             "diets": [
               "G",
-              "M",
               "Mu",
-              "VEG",
-              "SIS.LUOMUA"
+              "SIS.LUOMUA",
+              "L",
+              "M",
+              "VEG"
             ],
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isLactoseFree": true
-          },
-          {
-            "id": "juvenes-pkg-2",
-            "title": "MY SOUP",
-            "price": "3,10 €",
-            "meals": [
-              {
-                "name": "Peruna-palsternakkasosekeittoa",
-                "diets": [
-                  "G",
-                  "L",
-                  "Mu",
-                  "*",
-                  "SIS.LUOMUA"
-                ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": true
-              },
-              {
-                "name": "Vuolu kanafilee",
-                "diets": [
-                  "G",
-                  "L",
-                  "M"
-                ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": false
-              }
-            ],
-            "diets": [
-              "G",
-              "L",
-              "Mu",
-              "*",
-              "SIS.LUOMUA",
-              "M"
-            ],
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:46.900Z"
+        "fetchedAt": "2026-10-21T09:52:48.847Z"
       },
       "uno": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:48.640Z"
+        "fetchedAt": "2026-10-21T09:52:50.219Z"
       },
       "rentukka": {
         "success": true,
@@ -16355,7 +16054,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:49.072Z"
+        "fetchedAt": "2026-10-21T09:52:50.701Z"
       },
       "jamk-twist": {
         "success": true,
@@ -16385,23 +16084,9 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Linssi-kasviscurrya",
+                "name": "TexMex jauhismuru-kasvispelti",
                 "diets": [
                   "G",
-                  "M",
-                  "Mu",
-                  "VEG",
-                  "SIS.LUOMUA"
-                ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": false
-              },
-              {
-                "name": "Täysjyväriisiä",
-                "diets": [
-                  "G",
-                  "M",
                   "Mu",
                   "VEG",
                   "*"
@@ -16409,6 +16094,18 @@
                 "allergens": [],
                 "isClimate": false,
                 "isHeart": true
+              },
+              {
+                "name": "Tahini-soijajogurtti",
+                "diets": [
+                  "G",
+                  "M",
+                  "Mu",
+                  "VEG"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
               },
               {
                 "name": "Lämmin kasvislisäke",
@@ -16423,11 +16120,10 @@
             ],
             "diets": [
               "G",
-              "M",
               "Mu",
               "VEG",
-              "SIS.LUOMUA",
-              "*"
+              "*",
+              "M"
             ],
             "isVegetarian": true,
             "isVegan": true,
@@ -16440,40 +16136,40 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Sitruunamarinoitua broileria",
+                "name": "Jauhelihapihvejä",
+                "diets": [
+                  "L",
+                  "M",
+                  "Mu",
+                  "*"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": true
+              },
+              {
+                "name": "Metsäsienikastiketta",
                 "diets": [
                   "G",
-                  "M",
-                  "Mu"
+                  "L",
+                  "Mu",
+                  "SIS.LUOMUA"
                 ],
                 "allergens": [],
                 "isClimate": false,
                 "isHeart": false
               },
               {
-                "name": "Rakuuna-kermaviilikastiketta",
-                "diets": [
-                  "G",
-                  "L",
-                  "Mu",
-                  "*"
-                ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": true
-              },
-              {
-                "name": "Täysjyväriisiä",
+                "name": "Sitruunaiset yrttiperunat",
                 "diets": [
                   "G",
                   "M",
                   "Mu",
-                  "VEG",
-                  "*"
+                  "VEG"
                 ],
                 "allergens": [],
                 "isClimate": false,
-                "isHeart": true
+                "isHeart": false
               },
               {
                 "name": "Lämmin kasvislisäke",
@@ -16487,11 +16183,12 @@
               }
             ],
             "diets": [
-              "G",
+              "L",
               "M",
               "Mu",
-              "L",
               "*",
+              "G",
+              "SIS.LUOMUA",
               "VEG"
             ],
             "isVegetarian": true,
@@ -16505,11 +16202,14 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Kirjolohi-pastapaistosta",
+                "name": "Possua Sweet & Sour",
                 "diets": [
+                  "G",
                   "L",
+                  "M",
                   "Mu",
-                  "*"
+                  "*",
+                  "SIS.LUOMUA"
                 ],
                 "allergens": [],
                 "isClimate": false,
@@ -16527,10 +16227,12 @@
               }
             ],
             "diets": [
+              "G",
               "L",
+              "M",
               "Mu",
               "*",
-              "G",
+              "SIS.LUOMUA",
               "VEG"
             ],
             "isVegetarian": true,
@@ -16544,10 +16246,11 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Bataattikeittoa",
+                "name": "Tomaatti-tuorejuustokeittoa",
                 "diets": [
                   "G",
-                  "VEG",
+                  "L",
+                  "Mu",
                   "*",
                   "SIS.LUOMUA"
                 ],
@@ -16565,14 +16268,15 @@
             ],
             "diets": [
               "G",
-              "VEG",
+              "L",
+              "Mu",
               "*",
               "SIS.LUOMUA"
             ],
-            "isVegetarian": true,
-            "isVegan": true,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
-            "isLactoseFree": false
+            "isLactoseFree": true
           },
           {
             "id": "juvenes-pkg-5",
@@ -16600,7 +16304,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:54.516Z"
+        "fetchedAt": "2026-10-21T09:52:54.629Z"
       },
       "jamk-curve": {
         "success": true,
@@ -16630,23 +16334,9 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Linssi-kasviscurrya",
+                "name": "TexMex jauhismuru-kasvispelti",
                 "diets": [
                   "G",
-                  "M",
-                  "Mu",
-                  "VEG",
-                  "SIS.LUOMUA"
-                ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": false
-              },
-              {
-                "name": "Täysjyväriisiä",
-                "diets": [
-                  "G",
-                  "M",
                   "Mu",
                   "VEG",
                   "*"
@@ -16654,6 +16344,18 @@
                 "allergens": [],
                 "isClimate": false,
                 "isHeart": true
+              },
+              {
+                "name": "Tahini-soijajogurtti",
+                "diets": [
+                  "G",
+                  "M",
+                  "Mu",
+                  "VEG"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
               },
               {
                 "name": "Lämmin kasvislisäke",
@@ -16668,11 +16370,10 @@
             ],
             "diets": [
               "G",
-              "M",
               "Mu",
               "VEG",
-              "SIS.LUOMUA",
-              "*"
+              "*",
+              "M"
             ],
             "isVegetarian": true,
             "isVegan": true,
@@ -16685,40 +16386,40 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Sitruunamarinoitua broileria",
+                "name": "Jauhelihapihvejä",
+                "diets": [
+                  "L",
+                  "M",
+                  "Mu",
+                  "*"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": true
+              },
+              {
+                "name": "Metsäsienikastiketta",
                 "diets": [
                   "G",
-                  "M",
-                  "Mu"
+                  "L",
+                  "Mu",
+                  "SIS.LUOMUA"
                 ],
                 "allergens": [],
                 "isClimate": false,
                 "isHeart": false
               },
               {
-                "name": "Rakuuna-kermaviilikastiketta",
-                "diets": [
-                  "G",
-                  "L",
-                  "Mu",
-                  "*"
-                ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": true
-              },
-              {
-                "name": "Täysjyväriisiä",
+                "name": "Sitruunaiset yrttiperunat",
                 "diets": [
                   "G",
                   "M",
                   "Mu",
-                  "VEG",
-                  "*"
+                  "VEG"
                 ],
                 "allergens": [],
                 "isClimate": false,
-                "isHeart": true
+                "isHeart": false
               },
               {
                 "name": "Lämmin kasvislisäke",
@@ -16732,11 +16433,12 @@
               }
             ],
             "diets": [
-              "G",
+              "L",
               "M",
               "Mu",
-              "L",
               "*",
+              "G",
+              "SIS.LUOMUA",
               "VEG"
             ],
             "isVegetarian": true,
@@ -16750,11 +16452,14 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Kirjolohi-pastapaistosta",
+                "name": "Possua Sweet & Sour",
                 "diets": [
+                  "G",
                   "L",
+                  "M",
                   "Mu",
-                  "*"
+                  "*",
+                  "SIS.LUOMUA"
                 ],
                 "allergens": [],
                 "isClimate": false,
@@ -16772,10 +16477,12 @@
               }
             ],
             "diets": [
+              "G",
               "L",
+              "M",
               "Mu",
               "*",
-              "G",
+              "SIS.LUOMUA",
               "VEG"
             ],
             "isVegetarian": true,
@@ -16789,10 +16496,11 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Bataattikeittoa",
+                "name": "Tomaatti-tuorejuustokeittoa",
                 "diets": [
                   "G",
-                  "VEG",
+                  "L",
+                  "Mu",
                   "*",
                   "SIS.LUOMUA"
                 ],
@@ -16803,17 +16511,18 @@
             ],
             "diets": [
               "G",
-              "VEG",
+              "L",
+              "Mu",
               "*",
               "SIS.LUOMUA"
             ],
-            "isVegetarian": true,
-            "isVegan": true,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
-            "isLactoseFree": false
+            "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:51:01.410Z"
+        "fetchedAt": "2026-10-21T09:52:59.153Z"
       },
       "jamk-cube": {
         "success": true,
@@ -16823,6 +16532,19 @@
             "title": "AAMIAINEN",
             "price": "3,10 €",
             "meals": [
+              {
+                "name": "Luomu ruishiutalepuuroa",
+                "diets": [
+                  "M",
+                  "Mu",
+                  "VEG",
+                  "*",
+                  "SIS.LUOMUA"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": true
+              },
               {
                 "name": "Aamiaisen leipävalikoima",
                 "diets": [],
@@ -16836,83 +16558,125 @@
                 "allergens": [],
                 "isClimate": false,
                 "isHeart": false
+              },
+              {
+                "name": "Kahvi",
+                "diets": [
+                  "G",
+                  "L",
+                  "Mu"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
+              },
+              {
+                "name": "Kananmuna",
+                "diets": [
+                  "G",
+                  "L",
+                  "M"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
+              },
+              {
+                "name": "Appelsiinituoremehu",
+                "diets": [
+                  "G",
+                  "M",
+                  "Mu",
+                  "VEG"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
               }
             ],
-            "diets": [],
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isLactoseFree": false
+            "diets": [
+              "M",
+              "Mu",
+              "VEG",
+              "*",
+              "SIS.LUOMUA",
+              "G",
+              "L"
+            ],
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:51:06.635Z"
+        "fetchedAt": "2026-10-21T09:53:03.504Z"
       },
       "fiilu": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:51:08.674Z"
+        "fetchedAt": "2026-10-21T09:53:05.300Z"
       }
     },
     "2026-10-25": {
       "lozzi": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:19.667Z"
+        "fetchedAt": "2026-10-21T09:52:24.639Z"
       },
       "ilokivi": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:29.433Z"
+        "fetchedAt": "2026-10-21T09:52:33.056Z"
       },
       "taide-tiede": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:31.682Z"
+        "fetchedAt": "2026-10-21T09:52:34.905Z"
       },
       "syke": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:32.474Z"
+        "fetchedAt": "2026-10-21T09:52:35.592Z"
       },
       "belvedere": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:33.224Z"
+        "fetchedAt": "2026-10-21T09:52:36.372Z"
       },
       "tilia": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:33.945Z"
+        "fetchedAt": "2026-10-21T09:52:37.065Z"
       },
       "normaalikoulu": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:34.704Z"
+        "fetchedAt": "2026-10-21T09:52:37.794Z"
       },
       "piato": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:35.147Z"
+        "fetchedAt": "2026-10-21T09:52:38.375Z"
       },
       "bistro-mattilanniemi": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:36.766Z"
+        "fetchedAt": "2026-10-21T09:52:40.390Z"
       },
       "ylisto": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:38.300Z"
+        "fetchedAt": "2026-10-21T09:52:41.174Z"
       },
       "kvarkki": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:39.024Z"
+        "fetchedAt": "2026-10-21T09:52:42.167Z"
       },
       "salvia": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:41.140Z"
+        "fetchedAt": "2026-10-21T09:52:43.867Z"
       },
       "anna-kangas": {
         "success": true,
@@ -16923,19 +16687,20 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Tomaattista uunikalaa juureksilla",
+                "name": "Mureaa kananpoikaa curry-kookoskastikkeessa",
                 "diets": [
                   "G",
-                  "L",
+                  "M",
                   "Mu",
-                  "*"
+                  "*",
+                  "SIS.LUOMUA"
                 ],
                 "allergens": [],
                 "isClimate": false,
                 "isHeart": true
               },
               {
-                "name": "Sitruunaiset yrttiperunat",
+                "name": "Täysjyväriisiä",
                 "diets": [
                   "G",
                   "M",
@@ -16950,10 +16715,10 @@
             ],
             "diets": [
               "G",
-              "L",
+              "M",
               "Mu",
               "*",
-              "M",
+              "SIS.LUOMUA",
               "VEG"
             ],
             "isVegetarian": true,
@@ -16967,12 +16732,39 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Linssi-kasviscurrya",
+                "name": "TexMex jauhismuru-kasvispelti",
                 "diets": [
                   "G",
-                  "M",
                   "Mu",
                   "VEG",
+                  "*"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": true
+              }
+            ],
+            "diets": [
+              "G",
+              "Mu",
+              "VEG",
+              "*"
+            ],
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isLactoseFree": false
+          },
+          {
+            "id": "juvenes-pkg-2",
+            "title": "MY SOUP",
+            "price": "3,10 €",
+            "meals": [
+              {
+                "name": "Tomaatti-vuohenjuustokeittoa",
+                "diets": [
+                  "G",
+                  "Mu",
                   "SIS.LUOMUA"
                 ],
                 "allergens": [],
@@ -16980,9 +16772,12 @@
                 "isHeart": false
               },
               {
-                "name": "Yrttikaura",
+                "name": "Marinoituja kikherneitä",
                 "diets": [
                   "G",
+                  "L",
+                  "M",
+                  "Mu",
                   "VEG"
                 ],
                 "allergens": [],
@@ -16992,66 +16787,24 @@
             ],
             "diets": [
               "G",
-              "M",
               "Mu",
-              "VEG",
-              "SIS.LUOMUA"
+              "SIS.LUOMUA",
+              "L",
+              "M",
+              "VEG"
             ],
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isLactoseFree": true
-          },
-          {
-            "id": "juvenes-pkg-2",
-            "title": "MY SOUP",
-            "price": "3,10 €",
-            "meals": [
-              {
-                "name": "Peruna-palsternakkasosekeittoa",
-                "diets": [
-                  "G",
-                  "L",
-                  "Mu",
-                  "*",
-                  "SIS.LUOMUA"
-                ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": true
-              },
-              {
-                "name": "Vuolu kanafilee",
-                "diets": [
-                  "G",
-                  "L",
-                  "M"
-                ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": false
-              }
-            ],
-            "diets": [
-              "G",
-              "L",
-              "Mu",
-              "*",
-              "SIS.LUOMUA",
-              "M"
-            ],
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:47.957Z"
+        "fetchedAt": "2026-10-21T09:52:49.701Z"
       },
       "uno": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:50:48.865Z"
+        "fetchedAt": "2026-10-21T09:52:50.427Z"
       },
       "rentukka": {
         "success": true,
@@ -17268,7 +17021,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:49.072Z"
+        "fetchedAt": "2026-10-21T09:52:50.701Z"
       },
       "jamk-twist": {
         "success": true,
@@ -17298,23 +17051,9 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Linssi-kasviscurrya",
+                "name": "TexMex jauhismuru-kasvispelti",
                 "diets": [
                   "G",
-                  "M",
-                  "Mu",
-                  "VEG",
-                  "SIS.LUOMUA"
-                ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": false
-              },
-              {
-                "name": "Täysjyväriisiä",
-                "diets": [
-                  "G",
-                  "M",
                   "Mu",
                   "VEG",
                   "*"
@@ -17322,6 +17061,18 @@
                 "allergens": [],
                 "isClimate": false,
                 "isHeart": true
+              },
+              {
+                "name": "Tahini-soijajogurtti",
+                "diets": [
+                  "G",
+                  "M",
+                  "Mu",
+                  "VEG"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
               },
               {
                 "name": "Lämmin kasvislisäke",
@@ -17336,11 +17087,10 @@
             ],
             "diets": [
               "G",
-              "M",
               "Mu",
               "VEG",
-              "SIS.LUOMUA",
-              "*"
+              "*",
+              "M"
             ],
             "isVegetarian": true,
             "isVegan": true,
@@ -17353,40 +17103,40 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Sitruunamarinoitua broileria",
+                "name": "Jauhelihapihvejä",
+                "diets": [
+                  "L",
+                  "M",
+                  "Mu",
+                  "*"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": true
+              },
+              {
+                "name": "Metsäsienikastiketta",
                 "diets": [
                   "G",
-                  "M",
-                  "Mu"
+                  "L",
+                  "Mu",
+                  "SIS.LUOMUA"
                 ],
                 "allergens": [],
                 "isClimate": false,
                 "isHeart": false
               },
               {
-                "name": "Rakuuna-kermaviilikastiketta",
-                "diets": [
-                  "G",
-                  "L",
-                  "Mu",
-                  "*"
-                ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": true
-              },
-              {
-                "name": "Täysjyväriisiä",
+                "name": "Sitruunaiset yrttiperunat",
                 "diets": [
                   "G",
                   "M",
                   "Mu",
-                  "VEG",
-                  "*"
+                  "VEG"
                 ],
                 "allergens": [],
                 "isClimate": false,
-                "isHeart": true
+                "isHeart": false
               },
               {
                 "name": "Lämmin kasvislisäke",
@@ -17400,11 +17150,12 @@
               }
             ],
             "diets": [
-              "G",
+              "L",
               "M",
               "Mu",
-              "L",
               "*",
+              "G",
+              "SIS.LUOMUA",
               "VEG"
             ],
             "isVegetarian": true,
@@ -17418,11 +17169,14 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Kirjolohi-pastapaistosta",
+                "name": "Possua Sweet & Sour",
                 "diets": [
+                  "G",
                   "L",
+                  "M",
                   "Mu",
-                  "*"
+                  "*",
+                  "SIS.LUOMUA"
                 ],
                 "allergens": [],
                 "isClimate": false,
@@ -17440,10 +17194,12 @@
               }
             ],
             "diets": [
+              "G",
               "L",
+              "M",
               "Mu",
               "*",
-              "G",
+              "SIS.LUOMUA",
               "VEG"
             ],
             "isVegetarian": true,
@@ -17457,10 +17213,11 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Bataattikeittoa",
+                "name": "Tomaatti-tuorejuustokeittoa",
                 "diets": [
                   "G",
-                  "VEG",
+                  "L",
+                  "Mu",
                   "*",
                   "SIS.LUOMUA"
                 ],
@@ -17478,14 +17235,15 @@
             ],
             "diets": [
               "G",
-              "VEG",
+              "L",
+              "Mu",
               "*",
               "SIS.LUOMUA"
             ],
-            "isVegetarian": true,
-            "isVegan": true,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
-            "isLactoseFree": false
+            "isLactoseFree": true
           },
           {
             "id": "juvenes-pkg-5",
@@ -17513,7 +17271,7 @@
             "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:50:55.413Z"
+        "fetchedAt": "2026-10-21T09:52:55.291Z"
       },
       "jamk-curve": {
         "success": true,
@@ -17543,23 +17301,9 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Linssi-kasviscurrya",
+                "name": "TexMex jauhismuru-kasvispelti",
                 "diets": [
                   "G",
-                  "M",
-                  "Mu",
-                  "VEG",
-                  "SIS.LUOMUA"
-                ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": false
-              },
-              {
-                "name": "Täysjyväriisiä",
-                "diets": [
-                  "G",
-                  "M",
                   "Mu",
                   "VEG",
                   "*"
@@ -17567,6 +17311,18 @@
                 "allergens": [],
                 "isClimate": false,
                 "isHeart": true
+              },
+              {
+                "name": "Tahini-soijajogurtti",
+                "diets": [
+                  "G",
+                  "M",
+                  "Mu",
+                  "VEG"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
               },
               {
                 "name": "Lämmin kasvislisäke",
@@ -17581,11 +17337,10 @@
             ],
             "diets": [
               "G",
-              "M",
               "Mu",
               "VEG",
-              "SIS.LUOMUA",
-              "*"
+              "*",
+              "M"
             ],
             "isVegetarian": true,
             "isVegan": true,
@@ -17598,40 +17353,40 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Sitruunamarinoitua broileria",
+                "name": "Jauhelihapihvejä",
+                "diets": [
+                  "L",
+                  "M",
+                  "Mu",
+                  "*"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": true
+              },
+              {
+                "name": "Metsäsienikastiketta",
                 "diets": [
                   "G",
-                  "M",
-                  "Mu"
+                  "L",
+                  "Mu",
+                  "SIS.LUOMUA"
                 ],
                 "allergens": [],
                 "isClimate": false,
                 "isHeart": false
               },
               {
-                "name": "Rakuuna-kermaviilikastiketta",
-                "diets": [
-                  "G",
-                  "L",
-                  "Mu",
-                  "*"
-                ],
-                "allergens": [],
-                "isClimate": false,
-                "isHeart": true
-              },
-              {
-                "name": "Täysjyväriisiä",
+                "name": "Sitruunaiset yrttiperunat",
                 "diets": [
                   "G",
                   "M",
                   "Mu",
-                  "VEG",
-                  "*"
+                  "VEG"
                 ],
                 "allergens": [],
                 "isClimate": false,
-                "isHeart": true
+                "isHeart": false
               },
               {
                 "name": "Lämmin kasvislisäke",
@@ -17645,11 +17400,12 @@
               }
             ],
             "diets": [
-              "G",
+              "L",
               "M",
               "Mu",
-              "L",
               "*",
+              "G",
+              "SIS.LUOMUA",
               "VEG"
             ],
             "isVegetarian": true,
@@ -17663,11 +17419,14 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Kirjolohi-pastapaistosta",
+                "name": "Possua Sweet & Sour",
                 "diets": [
+                  "G",
                   "L",
+                  "M",
                   "Mu",
-                  "*"
+                  "*",
+                  "SIS.LUOMUA"
                 ],
                 "allergens": [],
                 "isClimate": false,
@@ -17685,10 +17444,12 @@
               }
             ],
             "diets": [
+              "G",
               "L",
+              "M",
               "Mu",
               "*",
-              "G",
+              "SIS.LUOMUA",
               "VEG"
             ],
             "isVegetarian": true,
@@ -17702,10 +17463,11 @@
             "price": "3,10 €",
             "meals": [
               {
-                "name": "Bataattikeittoa",
+                "name": "Tomaatti-tuorejuustokeittoa",
                 "diets": [
                   "G",
-                  "VEG",
+                  "L",
+                  "Mu",
                   "*",
                   "SIS.LUOMUA"
                 ],
@@ -17716,17 +17478,18 @@
             ],
             "diets": [
               "G",
-              "VEG",
+              "L",
+              "Mu",
               "*",
               "SIS.LUOMUA"
             ],
-            "isVegetarian": true,
-            "isVegan": true,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
-            "isLactoseFree": false
+            "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:51:02.467Z"
+        "fetchedAt": "2026-10-21T09:52:59.783Z"
       },
       "jamk-cube": {
         "success": true,
@@ -17736,6 +17499,19 @@
             "title": "AAMIAINEN",
             "price": "3,10 €",
             "meals": [
+              {
+                "name": "Luomu ruishiutalepuuroa",
+                "diets": [
+                  "M",
+                  "Mu",
+                  "VEG",
+                  "*",
+                  "SIS.LUOMUA"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": true
+              },
               {
                 "name": "Aamiaisen leipävalikoima",
                 "diets": [],
@@ -17749,21 +17525,63 @@
                 "allergens": [],
                 "isClimate": false,
                 "isHeart": false
+              },
+              {
+                "name": "Kahvi",
+                "diets": [
+                  "G",
+                  "L",
+                  "Mu"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
+              },
+              {
+                "name": "Kananmuna",
+                "diets": [
+                  "G",
+                  "L",
+                  "M"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
+              },
+              {
+                "name": "Appelsiinituoremehu",
+                "diets": [
+                  "G",
+                  "M",
+                  "Mu",
+                  "VEG"
+                ],
+                "allergens": [],
+                "isClimate": false,
+                "isHeart": false
               }
             ],
-            "diets": [],
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isLactoseFree": false
+            "diets": [
+              "M",
+              "Mu",
+              "VEG",
+              "*",
+              "SIS.LUOMUA",
+              "G",
+              "L"
+            ],
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isLactoseFree": true
           }
         ],
-        "fetchedAt": "2026-10-20T09:51:07.231Z"
+        "fetchedAt": "2026-10-21T09:53:04.010Z"
       },
       "fiilu": {
         "success": false,
         "packages": [],
-        "fetchedAt": "2026-10-20T09:51:08.978Z"
+        "fetchedAt": "2026-10-21T09:53:05.600Z"
       }
     }
   }
